@@ -55,12 +55,14 @@ title: "Home"
   </div>
 </div>
 
+
 ## Research interests
 
 - Molecular reasons for the global treeline phenomenon  
 - Ecological literacy and scientific literacy  
 - Plant awareness and perception  
 - AI-supported learning environments (e.g., chatbots as learning companions)  
+
 
 ## Textbook
 
@@ -86,6 +88,7 @@ title: "Home"
          width="200">
   </div>
 </div>
+
 
 ## Contact
 
