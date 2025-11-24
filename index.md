@@ -2,25 +2,19 @@
 layout: default
 title: "Home"
 ---
-<img src="/IMG_1922.HEIC" alt="Lars Dietrich" width="200" style="border-radius: 8px;">
 
 # Lars Dietrich
 
-I am a researcher in botany and science education. My research focuses on treelines on the one hand and on ecological education, plant awareness, and the use of AI-supported learning environments in higher education teaching on the other hand.
+I am a researcher in biology and science education, with a focus on ecological literacy, plant awareness disparity, and the use of AI-supported learning environments in higher education teaching.
+
+![Portrait](/IMG_1922.HEIC){: style="float:right; margin: 0 0 1rem 1rem; max-width: 200px;" }
 
 ## Research interests
 
-- Molecular underpinnings of the global treeline phenomenon
-- Ecological literacy and scientific literacy
-- Plant awareness and perception
-- Biology and chemistry education in higher education
-- AI-supported learning environments (e.g., chatbots as learning companions)
-
-- ## Navigation
-
-- [Publications](/publications)
-- [Teaching](/teaching)
-- [CV](/cv)
+- Ecological literacy and scientific literacy  
+- Plant awareness and perception  
+- Biology and chemistry education in higher education  
+- AI-supported learning environments (e.g., chatbots as learning companions)  
 
 ## Selected publications
 
@@ -28,9 +22,9 @@ I am a researcher in botany and science education. My research focuses on treeli
 
 ## Teaching
 
-I am involved in the biology education programs at Justus Liebig University Gießen and the Alpine Plant Ecology Course at the ALPFOR Research Station in Switzerland.
+I am involved in the biology education programmes at Justus Liebig University Gießen.
 
 ## Contact
 
-Email: lars.dietrich@uni-giessen.de  
+Email: your.email@uni-giessen.de  
 Institution: Justus Liebig University Gießen  
