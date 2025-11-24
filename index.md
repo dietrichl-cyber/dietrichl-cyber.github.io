@@ -3,12 +3,11 @@ layout: default
 title: "Home"
 ---
 
+<img src="/IMG_1922.HEIC" alt="Lars Dietrich" width="200" style="border-radius: 12px; margin: 0 0 1rem 1rem; float: right;">
+
 # Welcome
 
 I am a researcher in botany and science education. My work fosuses on treeline research as well as ecological education, plant awareness and perception, and the use of AI-supported learning environments in higher education teaching.
-
-<img src="/IMG_1922.HEIC" alt="Lars Dietrich" width="200" style="border-radius: 12px; margin: 0 0 1rem 1rem; float: right;">
-
 
 ## Research interests
 
@@ -17,11 +16,11 @@ I am a researcher in botany and science education. My work fosuses on treeline r
 - Plant awareness and perception  
 - AI-supported learning environments (e.g., chatbots as learning companions)  
 
+<img src="/book.jpeg" alt="Lars Dietrich" width="200" style="border-radius: 12px; margin: 0 0 1rem 1rem; float: right;">
+
 ## Textbook
   
 - Schmidt C, Dietrich L (2022) Chemie im Biologiestudium. Von Grund auf verständlich erklärt. Second Edition, Springer Spektrum, https://link. springer. com/book/10.1007/978-3-662-63416-5.[28.12. 2022].
-
-<img src="/book.jpeg" alt="Lars Dietrich" width="200" style="border-radius: 12px; margin: 0 0 1rem 1rem; float: right;">
 
 ## Contact
 
