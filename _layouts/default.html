@@ -30,8 +30,17 @@
       }
 
       header nav a {
-        text-decoration: none;
-      }
+  text-decoration: none;
+  display: block;
+  padding: 0.2rem 0.4rem;
+}
+
+@media (max-width: 700px) {
+  header nav a {
+    padding: 0.4rem 0.4rem; /* etwas mehr Fingerfläche auf dem Handy */
+  }
+}
+
 
       header nav a:hover {
         text-decoration: underline;
@@ -64,6 +73,11 @@
           max-width: 70%;
         }
       }
+        header nav a.active {
+        background: #f5f5f5;
+        border-radius: 4px;
+        font-weight: bold;
+      }
     </style>
   </head>
 
@@ -76,16 +90,17 @@
         <p>{{ site.description }}</p>
         {% endif %}
 
-        <nav>
-          <ul>
-            <li><a href="{{ '/' | relative_url }}">Home</a></li>
-            <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
-            <li><a href="{{ '/teaching' | relative_url }}">Teaching</a></li>
-            <li><a href="{{ '/cv' | relative_url }}">CV</a></li>
-            <li><a href="{{ '/Impressum' | relative_url }}">Impressum</a></li>
-            <li><a href="{{ '/Datenschutz' | relative_url }}">Datenschutz</a></li>
-          </ul>
-        </nav>
+<nav>
+  <ul>
+    <li><a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">Home</a></li>
+    <li><a href="{{ '/publications' | relative_url }}" class="{% if page.url contains '/publications' %}active{% endif %}">Publications</a></li>
+    <li><a href="{{ '/teaching' | relative_url }}" class="{% if page.url contains '/teaching' %}active{% endif %}">Teaching</a></li>
+    <li><a href="{{ '/cv' | relative_url }}" class="{% if page.url contains '/cv' %}active{% endif %}">CV</a></li>
+    <li><a href="{{ '/Impressum' | relative_url }}" class="{% if page.url contains '/impressum' %}active{% endif %}">Impressum</a></li>
+    <li><a href "{{ '/Datenschutz' | relative_url }}" class="{% if page.url contains '/datenschutz' %}active{% endif %}">Datenschutz</a></li>
+  </ul>
+</nav>
+
       </header>
 
       <section>
