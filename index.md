@@ -4,15 +4,16 @@ title: "Home"
 ---
 
 <style>
+  /* Layout für Bild+Text-Blöcke */
   .content-block {
     display: flex;
     gap: 1rem;
     align-items: flex-start;
     flex-wrap: wrap;
 
-    /* Standard = Mobilansicht */
+    /* Standard = Handy */
     flex-direction: column-reverse;
-    margin-bottom: 0.8rem; /* kleiner Abstand für Handy */
+    margin-bottom: 0.6rem; /* moderater Abstand zum nächsten Block */
   }
 
   .content-text {
@@ -30,11 +31,26 @@ title: "Home"
     height: auto;
   }
 
-  /* Ab Tablet/Desktop */
-  @media (min-width: 768px) {
+  /* Überschriften im Inhalt etwas enger setzen (überschreibt evtl. section h2 aus style.css) */
+  section h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.4rem;
+  }
+
+  /* Handy: Bild über Text, weniger Abstand unter Bild als im Layout (override mit !important) */
+  @media (max-width: 700px) {
+    section .content-image img {
+      margin: 0 auto 0.4rem auto !important; /* statt 1rem aus Layout */
+      max-width: 70%; /* wenn du sie schmaler zentriert magst; sonst 100% */
+      display: block;
+    }
+  }
+
+  /* Ab Tablet/Desktop: Bild rechts neben Text */
+  @media (min-width: 701px) {
     .content-block {
-      flex-direction: row; /* Text links, Bild rechts */
-      margin-bottom: 1.5rem; /* größerer Abstand */
+      flex-direction: row;      /* Text links, Bild rechts */
+      margin-bottom: 1.2rem;    /* etwas mehr Luft auf Desktop */
     }
   }
 </style>
