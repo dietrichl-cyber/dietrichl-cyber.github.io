@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-    <head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} – {{ site.title }}</title>
@@ -14,7 +14,8 @@
       }
 
       .wrapper {
-        max-width: 1450px;
+        max-width: 1450px !important;
+        width: 100% !important;
         margin: 0 auto;
         padding: 2rem;
       }
@@ -81,8 +82,8 @@
             <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
             <li><a href="{{ '/teaching' | relative_url }}">Teaching</a></li>
             <li><a href="{{ '/cv' | relative_url }}">CV</a></li>
-            <li><a href="/Impressum">Impressum</a></li>
-            <li><a href="/Datenschutz">Datenschutz</a></li>
+            <li><a href="{{ '/Impressum' | relative_url }}">Impressum</a></li>
+            <li><a href="{{ '/Datenschutz' | relative_url }}">Datenschutz</a></li>
           </ul>
         </nav>
       </header>
