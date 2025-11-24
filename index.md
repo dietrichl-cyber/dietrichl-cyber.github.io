@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 
-# Lars Dietrich
+# Welcome
 
 I am a researcher in botany and science education. My work fosuses on treeline research on the one hand and on ecological education, plant awareness nd prception, and the use of AI-supported learning environments in higher education teaching on the other hand.
 
