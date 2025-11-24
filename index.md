@@ -7,6 +7,13 @@ title: "Home"
 
 <div style="display: flex; gap: 1rem; align-items: flex-start; flex-wrap: wrap; margin-bottom: 1.5rem;">
 
+  <div style="flex: 0 0 auto;">
+    <img src="/IMG_1922.HEIC"
+         alt="Lars Dietrich"
+         width="200"
+         style="border-radius: 12px; max-width: 100%; height: auto;">
+  </div>
+  
   <div style="flex: 1 1 250px; min-width: 250px;">
     <p>
       I am a researcher in botany and science education. My work focuses on treeline research
@@ -15,14 +22,8 @@ title: "Home"
     </p>
   </div>
 
-  <div style="flex: 0 0 auto;">
-    <img src="/IMG_1922.HEIC"
-         alt="Lars Dietrich"
-         width="200"
-         style="border-radius: 12px; max-width: 100%; height: auto;">
-  </div>
-
 </div>
+
 
 ## Research interests
 
@@ -31,10 +32,18 @@ title: "Home"
 - Plant awareness and perception  
 - AI-supported learning environments (e.g., chatbots as learning companions)  
 
+
 ## Textbook
 
 <div style="display: flex; gap: 1rem; align-items: flex-start; flex-wrap: wrap; margin-bottom: 1.5rem;">
 
+    <div style="flex: 0 0 auto;">
+    <img src="/book.jpeg"
+         alt="Chemie im Biologiestudium"
+         width="200"
+         style="border-radius: 12px; max-width: 100%; height: auto;">
+  </div>
+  
   <div style="flex: 1 1 250px; min-width: 250px;">
     <p>
       <strong>Schmidt C, Dietrich L (2022).</strong>
@@ -50,14 +59,8 @@ title: "Home"
     </p>
   </div>
 
-  <div style="flex: 0 0 auto;">
-    <img src="/book.jpeg"
-         alt="Chemie im Biologiestudium"
-         width="200"
-         style="border-radius: 12px; max-width: 100%; height: auto;">
-  </div>
-
 </div>
+
 
 ## Contact
 
