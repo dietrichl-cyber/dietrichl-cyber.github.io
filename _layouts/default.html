@@ -17,18 +17,11 @@
         padding: 0;
       }
 
+      /* Gesamtbreite der Seite etwas erhöhen */
       .wrapper {
         max-width: 1200px;
         margin: 0 auto;
         padding: 2rem;
-        display: flex;
-        gap: 2rem;
-        align-items: flex-start;
-      }
-
-      /* Sidebar (links) */
-      header {
-        flex: 0 0 220px; /* feste Breite der linken Spalte */
       }
 
       header nav ul {
@@ -58,12 +51,9 @@
         font-weight: bold;
       }
 
-      /* Inhaltsbereich (rechts) */
       section {
-        flex: 1;
-        min-width: 0; /* verhindert horizontales Überlaufen */
         word-wrap: break-word;
-        overflow-wrap: anywhere; /* lange DOIs/Links umbrechen */
+        overflow-wrap: anywhere; /* DOIs/Links umbrechen */
       }
 
       section img {
@@ -75,16 +65,18 @@
       @media (max-width: 700px) {
         .wrapper {
           padding: 1rem;
-          flex-direction: column;  /* untereinander statt nebeneinander */
         }
 
         header {
+          margin-bottom: 1rem;
+          float: none;
           width: 100%;
         }
 
         section {
-          width: 100%;
           font-size: 0.95rem;
+          float: none;
+          width: 100%;
         }
 
         /* Tap Targets auf dem Handy etwas größer */
