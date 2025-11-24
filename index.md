@@ -18,7 +18,8 @@ I am a researcher in botany and science education. My work fosuses on treeline r
 ## Textbook
 <img src="/book.jpeg" alt="Lars Dietrich" width="200" style="border-radius: 12px; margin: 0 0 1rem 1rem; float: right;">
   
-- Schmidt C, Dietrich L (2022) Chemie im Biologiestudium. Von Grund auf verständlich erklärt. Second Edition, Springer Spektrum, https://link. springer. com/book/10.1007/978-3-662-63416-5.[28.12. 2022].
+  **Schmidt C, Dietrich L (2022).** *Chemie im Biologiestudium: Von Grund auf verständlich erklärt.* Second Edition. Springer Spektrum.  
+  Link: [https://link.springer.com/book/10.1007/978-3-662-63416-5](https://link.springer.com/book/10.1007/978-3-662-63416-5)
 
 ## Contact
 
