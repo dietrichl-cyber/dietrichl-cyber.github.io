@@ -20,6 +20,10 @@ Justus-Liebig-University Giessen
 - AI-supported learning environments  
 
 ## Education
+
+**High School Teacher**
+Federal Teacher Education Program, Germany (2019-2020)
+
 **PhD in Botany**  
 University of Basel, Switzerland  (2014 – 2017)
 
