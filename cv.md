@@ -3,7 +3,7 @@ layout: default
 title: "CV"
 ---
 
-# Curriculum Vitae — Lars Dietrich
+# Curriculum Vitae
 
 ## Current Position
 **Academic Council (Akademischer Rat)**  
