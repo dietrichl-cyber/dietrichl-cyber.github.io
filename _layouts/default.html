@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} – {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+
+        {% if site.description %}
+        <p>{{ site.description }}</p>
+        {% endif %}
+
+        <nav>
+          <ul>
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
+            <li><a href="{{ '/teaching' | relative_url }}">Teaching</a></li>
+            <li><a href="{{ '/cv' | relative_url }}">CV</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section>
+        {{ content }}
+      </section>
+    </div>
+  </body>
+</html>
