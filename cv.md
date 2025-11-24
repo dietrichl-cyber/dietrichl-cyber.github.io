@@ -21,7 +21,7 @@ Justus-Liebig-University Giessen
 
 ## Education
 
-**High School Teacher**
+**High School Teacher**<br>
 Federal Teacher Education Program, Germany (2019-2020)
 
 **PhD in Botany**  
