@@ -7,7 +7,8 @@ title: "Home"
 
 I am a researcher in botany and science education. My work fosuses on treeline research as well as ecological education, plant awareness and perception, and the use of AI-supported learning environments in higher education teaching.
 
-![Portrait](/IMG_1922.HEIC){: style="float:right; margin: 0 0 1rem 1rem; max-width: 200px;" }
+<img src="/IMG_1922.HEIC" alt="Lars Dietrich" width="200" style="border-radius: 12px; margin: 0 0 1rem 1rem; float: right;">
+
 
 ## Research interests
 
