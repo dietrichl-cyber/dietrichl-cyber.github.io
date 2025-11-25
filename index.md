@@ -13,19 +13,17 @@ title: "Home"
     style="float: right; margin: 0 0 0.4rem 1rem !important; border-radius: 12px; max-width: 100%; height: auto;"
   >
   <p>
-    I am a researcher in botany and science education. My work focuses on treeline research
-    as well as ecological education, plant awareness and perception, and the use of
-    AI-supported learning environments in higher education teaching.
+    I am a researcher in science education and botany. My science education work focuses on ecological education, plant awareness and perception, and the use of AI-supported learning environments in higher education teaching. I am especially interested in how ecological phenomena can be understood across levels of organisations - from molecules to ecosystems. Moreover, I embrace all the opportunities that AI brings to teaching and learning while being cautious about potential pitfalls of the techn ology. In botany, I am interested in plant-enviropnment interactions, especially how cold and drought impact plant physiology. I am fascinated about the global treeline phenomenon which has still not been explained on a mechanistic basis.
   </p>
 </div>
 
 <h2 style="margin-top: 1rem; margin-bottom: 0.4rem; clear: both;">Research interests</h2>
 
 <ul>
-  <li>Molecular reasons for the global treeline phenomenon</li>
-  <li>Ecological literacy and scientific literacy</li>
+  <li>Ecology education and scientific literacy</li>
   <li>Plant awareness and perception</li>
   <li>AI-supported learning environments (e.g., chatbots as learning companions)</li>
+  <li>Plant physiology behind the global treeline phenomenon</li>
 </ul>
 
 <h2 style="margin-top: 1rem; margin-bottom: 0.4rem; clear: both;">Textbook</h2>
