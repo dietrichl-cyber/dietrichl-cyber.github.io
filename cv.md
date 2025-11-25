@@ -10,7 +10,7 @@ title: "CV"
 **Postdoctoral Researcher (Akademischer Rat)**  
 Institute for Biology Education<br>
 Department of Biology and Chemistry<br>
-Justus-Liebig-University Giessen  
+Justus Liebig University Giessen  
 (04/2025–present)
 
 ## Research Focus
