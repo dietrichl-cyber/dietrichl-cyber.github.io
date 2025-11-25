@@ -17,7 +17,7 @@ title: "Home"
   </p>
 </div>
 
-<h2 style="margin-top: 1rem; margin-bottom: 0.4rem; clear: both;">Research interests</h2>
+<h2 style="margin-top: 1rem; margin-bottom: 0.5rem; clear: both;">Research interests</h2>
 
 <ul>
   <li>Ecology education and scientific literacy</li>
@@ -26,7 +26,7 @@ title: "Home"
   <li>Plant physiology behind the global treeline phenomenon</li>
 </ul>
 
-<h2 style="margin-top: 1rem; margin-bottom: 0.4rem; clear: both;">Textbook</h2><br>
+<h2 style="margin-top: 1rem; margin-bottom: 0.5rem; clear: both;">Textbook</h2>
 
 <div>
   <img
@@ -52,7 +52,7 @@ Our goal was to create an accessible, step-by-step guide that makes chemistry cl
   </p>
 </div>
 
-<h2 style="margin-top: 1rem; margin-bottom: 0.4rem; clear: both;">Contact</h2>
+<h2 style="margin-top: 1rem; margin-bottom: 0.5rem; clear: both;">Contact</h2>
 
 <p>
   Email: lars.dietrich@uni-giessen.de<br>
