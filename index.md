@@ -44,7 +44,7 @@ title: "Home"
   </p>
 
   <p>
-    Link:<br>
+    Link: 
     <a href="https://link.springer.com/book/10.1007/978-3-662-63416-5">
       https://link.springer.com/book/10.1007/978-3-662-63416-5
     </a>
