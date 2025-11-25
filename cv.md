@@ -7,9 +7,9 @@ title: "CV"
 # Curriculum Vitae
 
 ## Current Position
-**Academic Council (Akademischer Rat)**  
-Institute for Biology Education
-Department of Biology and Chemistry
+**Postdoctoral Researcher (Akademischer Rat)**  
+Institute for Biology Education<br>
+Department of Biology and Chemistry<br>
 Justus-Liebig-University Giessen  
 (04/2025–present)
 
