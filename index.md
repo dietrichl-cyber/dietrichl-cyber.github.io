@@ -39,7 +39,7 @@ title: "Home"
   >
   <p>
     <strong>Schmidt C, Dietrich L (2022).</strong>
-    <em>Chemie im Biologiestudium: Von Grund auf verständlich erklärt.</em><br>
+    <em>Chemie im Biologiestudium: Von Grund auf verständlich erklärt.</em>
     Second Edition. Springer Spektrum.
   </p>
 
