@@ -56,5 +56,5 @@ Our goal was to create an accessible, step-by-step guide that makes chemistry cl
 
 <p>
   Email: lars.dietrich@uni-giessen.de<br>
-  Institution: Justus Liebig University Gießen
+  Institution: Justus Liebig University Gießen (Germany)
 </p>
