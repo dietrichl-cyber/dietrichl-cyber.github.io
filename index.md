@@ -20,10 +20,10 @@ title: "Home"
 <h2 style="margin-top: 1rem; margin-bottom: 0.7rem; clear: both;">Research interests</h2>
 
 <ul>
-  <li>Ecology education and scientific literacy</li>
-  <li>Plant awareness and perception</li>
-  <li>AI-supported learning environments (e.g., chatbots as learning companions)</li>
-  <li>Plant physiology behind the global treeline phenomenon</li>
+  <li>Ecology Education and Scientific Literacy</li>
+  <li>Plant Awareness and Perception</li>
+  <li>AI-supported Learning Environments (e.g., chatbots as learning companions)</li>
+  <li>Plant Ecology and Physiology behind the global treeline phenomenon</li>
 </ul>
 
 <h2 style="margin-top: 1rem; margin-bottom: 0.7rem; clear: both;">Textbook</h2>
