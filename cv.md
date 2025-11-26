@@ -13,16 +13,10 @@ Department of Biology and Chemistry<br>
 Justus Liebig University Giessen (Germany)<br> 
 (04/2025–present)
 
-## Research Focus
-- Molecular reasons for the global treeline phenomenon
-- Ecological literacy and scientific literacy  
-- Plant awareness and plant perception  
-- AI-supported learning environments  
-
 ## Education
 
 **High School Teacher for Biology & Chemistry**<br>
-Federal Teacher Education Program, Germany (2019-2020)
+Federal Teacher Education Program Saxony, Germany (2019-2020)
 
 **PhD in Botany**  
 University of Basel, Switzerland  (2014 – 2017)
@@ -33,18 +27,52 @@ University of Basel, Switzerland (2013 – 2014)
 **B.Sc. in Biology & Chemistry**  
 University of Muenster, Germany (2009 - 2013)
 
-## Academic Appointments
-...
+## Appointments
+
+**Postdoctoral Researcher (Akademischer Rat)**  
+Institute for Biology Education<br>
+Department of Biology and Chemistry<br>
+Justus Liebig University Giessen (Germany)<br> 
+(04/2025–present)
+
+**Postdoctoral Researcher (on part-time basis, 4 h/w)**  
+Institute for Crop Science and Resource Conservation<br>
+Department of Biology and Chemistry<br>
+University of Bonn (Germany)<br> 
+(08/2023–08/2025)
+
+**Head (2 yrs) and Deputy Head (1 yr)**  
+Envrionmental Education Center NaturGut Ophoven<br>
+City of Leverkusen<br>
+Germany<br> 
+(04/2022–03/2025)
+
+**High School Teacher for Biology and Chemistry**  
+Gymnasium Reutershagen<br>
+City of Rostock<br>
+Germany<br> 
+(02/2021–02/2022)
+
+**High School Teacher for Biology and Chemistry**  
+Sportgymnasium Chemnitz<br>
+City of Chemnitz<br>
+Germany<br> 
+(07/2019–01/2021)
+
+**Postdoctoral Researcher (on part-time basis, 30 h/w)**  
+Department of Environmental Sciences | Botany<br>
+University of Basel (Switzerland)<br> 
+(11/2017–04/2018)
+
+**PhD Student**  
+Department of Environmental Sciences | Botany<br>
+University of Basel (Switzerland)<br> 
+(04/2014–10/2017)
 
 ## Teaching Experience
 - Biology education courses at JLU Giessen  
 - Supervision of Bachelor and Master theses  
 - Courses in: biology education, ecology, didactics, digital teaching  
-
-## Publications (Selection)
-*(See full list on the Publications page)*
-
-- Dietrich, L., et al. (2025). Investigating plant awareness: Image composition affects student perception of flora and fauna. *Plants, People, Planet*.
 
 ## Talks & Conference Contributions
 ... 
