@@ -71,8 +71,8 @@ University of Basel (Switzerland)<br>
 
 ## Teaching Experience
 - One Health Teaching Clinic (JLU Giessen)
-- Scientific practivce and Research Methods in Biology Education (JLU Giessen)
-- Media in Biology Teaching (JLU Giessen)
+- Scientific Practice and Research Methods in Biology Education (JLU Giessen)
+- Digital and Instructional Media in Biology Teaching (JLU Giessen)
 - Lectures on "Learner's Conceptions in Biology" and "Diversity, Differentiation, and Language in Biology Education"
 - Alpine Plant Ecology (ALPFOR Research Station, Switzerland)
 - Supervision of Bachelor and Master theses (JLU Giessen, Universiy of Basel) 
