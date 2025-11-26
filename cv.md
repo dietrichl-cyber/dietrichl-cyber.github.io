@@ -48,16 +48,10 @@ Germany<br>
 (04/2022–03/2025)
 
 **High School Teacher for Biology and Chemistry**  
-Gymnasium Reutershagen<br>
-City of Rostock<br>
+Gymnasium Reutershagen & Sportgymnasium Chemnitz<br>
+City of Rostock & City of Chemnitz<br>
 Germany<br> 
-(02/2021–02/2022)
-
-**High School Teacher for Biology and Chemistry**  
-Sportgymnasium Chemnitz<br>
-City of Chemnitz<br>
-Germany<br> 
-(07/2019–01/2021)
+(07/2019–02/2022)
 
 **Postdoctoral Researcher (on part-time basis, 30 h/w)**  
 Department of Environmental Sciences | Botany<br>
