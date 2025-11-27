@@ -53,6 +53,8 @@ title: "Publications"
 
 - **Westendorf-Bröring E (ed.) (2021).** *Biologie Heute SI 2 Niedersachsen.* Westermann Bildungsmedien Verlag GmbH: Braunschweig. (Contributor)
 
+- **Dietrich L (2019).** Insular Woodiness – Verholzung bei Inselendemiten. *Schweizerische Beiträge zur Dendrologie*, 69–70, 85–88.
+
 
 ## Conference contributions
 
