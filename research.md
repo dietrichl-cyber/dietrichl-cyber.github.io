@@ -68,7 +68,7 @@ permalink: /research/
 
 <div>
   <img
-    src="/project_treegrowth.jpg"
+    src="/IMG_1922.HEIC"
     alt="Tree growth in cold climates"
     width="220"
     style="float: right; margin: 0 0 0.4rem 1rem !important; border-radius: 12px; max-width: 100%; height: auto;"
