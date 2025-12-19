@@ -11,7 +11,7 @@ I am mainly involved in teaching within the biology education programs at Justus
 - One Health Teaching CLinic
 - Scientific Practice and Research Methods in Biology Education
 - Basics of Biology Education
-- Media in Biology Education
+- Digital and Instructional Media in Biology Education
 - Summer School on Alpine Plant Ecology at the Alpine Research Station "AlPFOR" (Switzerland)
 
 ## Supervision
