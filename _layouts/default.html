@@ -1,61 +1,191 @@
-<nav id="main-nav">
-  <ul>
-    <li>
-      <a href="{{ '/' | relative_url }}"
-         class="{% if page.url == '/' %}active{% endif %}">
-        Home
-      </a>
-    </li>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} – {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
-    <li>
-      <a href="{{ '/news' | relative_url }}"
-         class="{% if page.url contains '/news' %}active{% endif %}">
-        News
-      </a>
-    </li>
+    <style>
+      * { box-sizing: border-box; }
 
-    <!-- NEW: Research -->
-    <li>
-      <a href="{{ '/research' | relative_url }}"
-         class="{% if page.url contains '/research' %}active{% endif %}">
-        Research
-      </a>
-    </li>
+      body { margin: 0; padding: 0; }
 
-    <li>
-      <a href="{{ '/publications' | relative_url }}"
-         class="{% if page.url contains '/publications' %}active{% endif %}">
-        Publications
-      </a>
-    </li>
+      .wrapper {
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
 
-    <li>
-      <a href="{{ '/teaching' | relative_url }}"
-         class="{% if page.url contains '/teaching' %}active{% endif %}">
-        Teaching
-      </a>
-    </li>
+      header nav ul {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+      }
 
-    <li>
-      <a href="{{ '/cv' | relative_url }}"
-         class="{% if page.url contains '/cv' %}active{% endif %}">
-        CV
-      </a>
-    </li>
+      header nav ul li { margin-bottom: 0.3rem; }
 
-    <li>
-      <a href="{{ '/Impressum' | relative_url }}"
-         class="{% if page.url contains '/Impressum' %}active{% endif %}">
-        Impressum
-      </a>
-    </li>
+      header nav a {
+        text-decoration: none;
+        display: block;
+        padding: 0.2rem 0.4rem;
+      }
 
-    <li>
-      <a href="{{ '/Datenschutz' | relative_url }}"
-         class="{% if page.url contains '/Datenschutz' %}active{% endif %}">
-        Datenschutz
-      </a>
-    </li>
-  </ul>
-</nav>
+      header nav a:hover { text-decoration: underline; }
 
+      header nav a.active {
+        background: #f5f5f5;
+        border-radius: 4px;
+        font-weight: bold;
+      }
+
+      section {
+        word-wrap: break-word;
+        overflow-wrap: anywhere;
+      }
+
+      section img { max-width: 100%; height: auto; }
+
+      .nav-toggle {
+        display: none;
+        border: 1px solid #ccc;
+        background: #fff;
+        padding: 0.3rem 0.6rem;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        cursor: pointer;
+      }
+
+      @media (max-width: 700px) {
+        .wrapper { padding: 1rem; }
+
+        header {
+          margin-bottom: 1rem;
+          float: none;
+          width: 100%;
+        }
+
+        section {
+          font-size: 0.95rem;
+          float: none;
+          width: 100%;
+        }
+
+        header nav a { padding: 0.4rem 0.4rem; }
+
+        section img {
+          float: none !important;
+          display: block;
+          margin: 0 auto 1rem auto !important;
+          max-width: 70%;
+        }
+
+        .nav-toggle {
+          display: inline-block;
+          margin-bottom: 0.5rem;
+        }
+
+        header nav {
+          display: none;
+          margin-top: 0.5rem;
+        }
+
+        header nav.open { display: block; }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+
+        {% if site.description %}
+        <p>{{ site.description }}</p>
+        {% endif %}
+
+        <button class="nav-toggle" id="nav-toggle"
+                aria-expanded="false" aria-controls="main-nav">
+          ☰ Menu
+        </button>
+
+        <nav id="main-nav">
+          <ul>
+            <li>
+              <a href="{{ '/' | relative_url }}"
+                 class="{% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a href="{{ '/news' | relative_url }}"
+                 class="{% if page.url == '/news' or page.url == '/news/' or page.url == '/news.html' or page.title == 'News' %}active{% endif %}">
+                News
+              </a>
+            </li>
+
+            <li>
+              <a href="{{ '/research' | relative_url }}"
+                 class="{% if page.url contains '/research' or page.title == 'Research' %}active{% endif %}">
+                Research
+              </a>
+            </li>
+
+            <li>
+              <a href="{{ '/publications' | relative_url }}"
+                 class="{% if page.url contains '/publications' %}active{% endif %}">
+                Publications
+              </a>
+            </li>
+
+            <li>
+              <a href="{{ '/teaching' | relative_url }}"
+                 class="{% if page.url contains '/teaching' %}active{% endif %}">
+                Teaching
+              </a>
+            </li>
+
+            <li>
+              <a href="{{ '/cv' | relative_url }}"
+                 class="{% if page.url contains '/cv' %}active{% endif %}">
+                CV
+              </a>
+            </li>
+
+            <li>
+              <a href="{{ '/Impressum' | relative_url }}"
+                 class="{% if page.url contains '/Impressum' %}active{% endif %}">
+                Impressum
+              </a>
+            </li>
+
+            <li>
+              <a href="{{ '/Datenschutz' | relative_url }}"
+                 class="{% if page.url contains '/Datenschutz' %}active{% endif %}">
+                Datenschutz
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section>
+        {{ content }}
+      </section>
+    </div>
+
+    <script>
+      (function () {
+        var btn = document.getElementById('nav-toggle');
+        var nav = document.getElementById('main-nav');
+        if (!btn || !nav) return;
+
+        btn.addEventListener('click', function () {
+          var isOpen = nav.classList.toggle('open');
+          btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        });
+      })();
+    </script>
+  </body>
+</html>
