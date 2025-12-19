@@ -29,7 +29,7 @@ permalink: /research/
   <h3 style="margin-top: 0.2rem; margin-bottom: 0.4rem;">Ecological Literacy</h3>
   <p>
     <!-- Add your text here -->
-    Short description of your ecological literacy work.
+    Short description of ecological literacy work.
   </p>
 </div>
 <div style="clear: both;"></div>
@@ -44,7 +44,7 @@ permalink: /research/
   <h3 style="margin-top: 0.2rem; margin-bottom: 0.4rem;">Data Literacy</h3>
   <p>
     <!-- Add your text here -->
-    Short description of your data literacy work.
+    Together with our colleagues from the Universities of Muenster and Kassel (both Germany), we are trying to create a comprehensive interdisciplinary framework for data literacy in biology and math education. Building on this framework, our ultimate goal is to design and test a tool that teaches data literacy to students using AI-generated adaptive feedback. Biological contexts for this are health and biodiversity data sets. In Giessen, we are working on the biodiversity part of the project.
   </p>
 </div>
 <div style="clear: both;"></div>
@@ -59,7 +59,7 @@ permalink: /research/
   <h3 style="margin-top: 0.2rem; margin-bottom: 0.4rem;">Plant Awareness</h3>
   <p>
     <!-- Add your text here -->
-    Short description of your plant awareness work.
+    Short description of plant awareness work.
   </p>
 </div>
 <div style="clear: both;"></div>
@@ -74,7 +74,7 @@ permalink: /research/
   <h3 style="margin-top: 0.2rem; margin-bottom: 0.4rem;">Tree growth in cold climates</h3>
   <p>
     <!-- Add your text here -->
-    Short description of your tree growth work.
+    Short description of tree growth work.
   </p>
 </div>
 <div style="clear: both;"></div>
@@ -85,6 +85,6 @@ permalink: /research/
 - Prof. Marcia Eugenio-Gozalbo & Prof. Inés Cubrero (Plant Awareness; Universidad de Valladolid)
 - Prof. Daniel Kaiser & Philipp Flieger (Plant Awareness; Justus Liebig University Giessen)
 - Prof. Camilo Chiang & Dr. Rafael Suárez (Cross-discipline reasoning; Universidad de Salamanca)
-- Dr. Mathias Zeidler (Tree growth in cold climates; Justus Liebig University Giessen)
+- Prof. Mathias Zeidler (Tree growth in cold climates; Justus Liebig University Giessen)
 - Prof. Christian Körner (Tree growth in cold climates / Alpine Plant Ecology; University of Basel)
 
