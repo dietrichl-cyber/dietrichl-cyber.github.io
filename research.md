@@ -59,7 +59,7 @@ permalink: /research/
   <h3 style="margin-top: 0.2rem; margin-bottom: 0.4rem;">Plant Awareness</h3>
   <p>
     <!-- Add your text here -->
-    Short description of plant awareness work.
+    Trained as a botanist, I am strongly motivated to investigate how people perceive plants, how they engage with them, and how plant life can be made more accessible and meaningful to broader audiences. Plants provide essential benefits for humanity, and meeting global challenges such as food security and sustainable land use requires people who understand how plants function. My research examines visual plant perception in collaboration with Roman Asshoff (Münster), and Daniel Kaiser and Philipp Flieger (both Giessen). In parallel, together with Marcia Eugenio-Gozalbo and Inés Cubrero (both Valladolid), and Rafa Suárez (Salamanca), I investigate educational approaches aimed at increasing plant awareness among students.
   </p>
 </div>
 <div style="clear: both;"></div>
