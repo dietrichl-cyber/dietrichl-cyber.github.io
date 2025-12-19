@@ -2,20 +2,19 @@
 layout: default
 title: "Teaching"
 ---
-(page under construction)
-
 # Teaching
 
-I am involved in teaching within the biology education programmes at Justus Liebig University Gießen and the Alpine Summer School on Plant Ecology at the ALPFOR Research Station in Switzerland.
+I am mainly involved in teaching within the biology education programs at Justus Liebig University Gießen.
 
 ## Current teaching
 
 - One Health Teaching CLinic
-- Scientific Practice in Biology Education
-- Basics of Biology EDucation
-- Summer School on Alpine Plant Ecology at the Alpine Research Station "Alpfor"
+- Scientific Practice and Research Methods in Biology Education
+- Basics of Biology Education
+- Media in Biology Education
+- Summer School on Alpine Plant Ecology at the Alpine Research Station "AlPFOR" (Switzerland)
 
 ## Supervision
 
 - Co-Supervision of Doctoral Theses
-- Supervision of Master's and State Examination theses
+- Supervision of Master's and Teacher-Training Examination theses
