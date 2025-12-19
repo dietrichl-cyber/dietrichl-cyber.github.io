@@ -44,7 +44,7 @@ permalink: /research/
   <h3 style="margin-top: 0.2rem; margin-bottom: 0.4rem;">Data Literacy</h3>
   <p>
     <!-- Add your text here -->
-    Together with our colleagues from the Universities of Muenster and Kassel (both Germany), we are trying to create a comprehensive interdisciplinary framework for data literacy in biology and math education. Building on this framework, our ultimate goal is to design and test a tool that teaches data literacy to students using AI-generated adaptive feedback. Biological contexts for this are health and biodiversity data sets. In Giessen, we are working on the biodiversity part of the project.
+    Together with colleagues from the Universities of Münster and Kassel, we are developing a comprehensive interdisciplinary framework for data literacy in biology and mathematics education. Building on this framework, our overarching goal is to design and empirically test a tool that supports students’ data literacy through AI-generated adaptive feedback. The project uses biological contexts such as health and biodiversity datasets; at Giessen, our focus is on the biodiversity component.
   </p>
 </div>
 <div style="clear: both;"></div>
@@ -74,14 +74,14 @@ permalink: /research/
   <h3 style="margin-top: 0.2rem; margin-bottom: 0.4rem;">Tree growth in cold climates</h3>
   <p>
     <!-- Add your text here -->
-    Short description of tree growth work.
+   Globally, tree growth declines abruptly at a growing-season mean temperature of approximately 6 °C, giving rise to arctic and alpine treelines. This threshold marks the functional limit of the tree growth form. Despite its global consistency, the physiological mechanisms underlying this sharp cessation of growth remain unresolved. My research therefore aims to identify the physiological processes that prevent trees from growing beyond this temperature limit. This work is conducted in collaboration with Mathias Zeidler (Giessen) and Christian Körner (Basel).
   </p>
 </div>
 <div style="clear: both;"></div>
 
 <h2 style="margin-top: 1rem; margin-bottom: 0.7rem; clear: both;">Collaborations</h2>
 
-- Dr. Roman Asshoff (Ecological Literacy / Plant Awareness; University of Muenster)
+- Dr. Roman Asshoff (Ecological Literacy / Plant Awareness; University of Münster)
 - Prof. Marcia Eugenio-Gozalbo & Prof. Inés Cubrero (Plant Awareness; Universidad de Valladolid)
 - Prof. Daniel Kaiser & Philipp Flieger (Plant Awareness; Justus Liebig University Giessen)
 - Prof. Camilo Chiang & Dr. Rafael Suárez (Cross-discipline reasoning; Universidad de Salamanca)
