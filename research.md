@@ -21,6 +21,7 @@ permalink: /research/
     emergent processes of ecosystems.
   </p>
 </div>
+<div style="clear: both;"></div>
 
 <h2 style="margin-top: 1rem; margin-bottom: 0.7rem; clear: both;">Projects</h2>
 
@@ -31,12 +32,13 @@ permalink: /research/
     width="220"
     style="float: right; margin: 0 0 0.4rem 1rem !important; border-radius: 12px; max-width: 100%; height: auto;"
   >
-  <h3 style="margin-top: 0.8rem; margin-bottom: 0.4rem; clear: both;">Ecological Literacy</h3>
+  <h3 style="margin-top: 0.2rem; margin-bottom: 0.4rem;">Ecological Literacy</h3>
   <p>
     <!-- Add your text here -->
-    Short description of  ecological literacy work (goals, methods, target groups, outcomes).
+    Short description of your ecological literacy work.
   </p>
 </div>
+<div style="clear: both;"></div>
 
 <div>
   <img
@@ -45,12 +47,13 @@ permalink: /research/
     width="220"
     style="float: right; margin: 0 0 0.4rem 1rem !important; border-radius: 12px; max-width: 100%; height: auto;"
   >
-  <h3 style="margin-top: 0.8rem; margin-bottom: 0.4rem; clear: both;">Data Literacy</h3>
+  <h3 style="margin-top: 0.2rem; margin-bottom: 0.4rem;">Data Literacy</h3>
   <p>
     <!-- Add your text here -->
-    Short description of  data literacy work (skills, tools, learning goals).
+    Short description of your data literacy work.
   </p>
 </div>
+<div style="clear: both;"></div>
 
 <div>
   <img
@@ -59,12 +62,13 @@ permalink: /research/
     width="220"
     style="float: right; margin: 0 0 0.4rem 1rem !important; border-radius: 12px; max-width: 100%; height: auto;"
   >
-  <h3 style="margin-top: 0.8rem; margin-bottom: 0.4rem; clear: both;">Plant Awareness</h3>
+  <h3 style="margin-top: 0.2rem; margin-bottom: 0.4rem;">Plant Awareness</h3>
   <p>
     <!-- Add your text here -->
-    Short description of  plant awareness work (perception, interventions, measurement).
+    Short description of your plant awareness work.
   </p>
 </div>
+<div style="clear: both;"></div>
 
 <div>
   <img
@@ -73,12 +77,13 @@ permalink: /research/
     width="220"
     style="float: right; margin: 0 0 0.4rem 1rem !important; border-radius: 12px; max-width: 100%; height: auto;"
   >
-  <h3 style="margin-top: 0.8rem; margin-bottom: 0.4rem; clear: both;">Tree growth in cold climates</h3>
+  <h3 style="margin-top: 0.2rem; margin-bottom: 0.4rem;">Tree growth in cold climates</h3>
   <p>
     <!-- Add your text here -->
-    Short description of  tree growth work (treeline, frost/cold constraints, physiology, field sites).
+    Short description of your tree growth work.
   </p>
 </div>
+<div style="clear: both;"></div>
 
 <h2 style="margin-top: 1rem; margin-bottom: 0.7rem; clear: both;">Collaborations</h2>
 
