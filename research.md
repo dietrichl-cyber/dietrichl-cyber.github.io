@@ -81,11 +81,10 @@ permalink: /research/
 
 <h2 style="margin-top: 1rem; margin-bottom: 0.7rem; clear: both;">Collaborations</h2>
 
-<p>
-  Dr. Roman Asshoff (Ecological Literacy/Plant Awareness; University of Muenster)<br>
-  Prof. Marcia Eugenio-Gozalbo &amp; Prof. Inés Cubrero (Plant Awareness; Universidad de Valladolid)<br>
-  Prof. Daniel Kaiser &amp; Philipp Flieger (Plant Awareness; Justus Liebig University Giessen)<br>
-  Prof. Camilo Chiang &amp; Dr. Rafael Suárez (Cross-discipline reasoning; Universidad de Salamanca)<br>
-  Dr. Mathias Zeidler (Tree growth in cold climates; Justus Liebig University Giessen)<br>
-  Prof. Christian Körner (Tree growth in cold climates/Alpine Plant Ecology; University of Basel)
-</p>
+- Dr. Roman Asshoff (Ecological Literacy / Plant Awareness; University of Muenster)
+- Prof. Marcia Eugenio-Gozalbo & Prof. Inés Cubrero (Plant Awareness; Universidad de Valladolid)
+- Prof. Daniel Kaiser & Philipp Flieger (Plant Awareness; Justus Liebig University Giessen)
+- Prof. Camilo Chiang & Dr. Rafael Suárez (Cross-discipline reasoning; Universidad de Salamanca)
+- Dr. Mathias Zeidler (Tree growth in cold climates; Justus Liebig University Giessen)
+- Prof. Christian Körner (Tree growth in cold climates / Alpine Plant Ecology; University of Basel)
+
