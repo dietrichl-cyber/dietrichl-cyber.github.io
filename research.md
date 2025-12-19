@@ -34,7 +34,7 @@ permalink: /research/
   <h3 style="margin-top: 0.8rem; margin-bottom: 0.4rem; clear: both;">Ecological Literacy</h3>
   <p>
     <!-- Add your text here -->
-    Short description of your ecological literacy work (goals, methods, target groups, outcomes).
+    Short description of  ecological literacy work (goals, methods, target groups, outcomes).
   </p>
 </div>
 
@@ -48,7 +48,7 @@ permalink: /research/
   <h3 style="margin-top: 0.8rem; margin-bottom: 0.4rem; clear: both;">Data Literacy</h3>
   <p>
     <!-- Add your text here -->
-    Short description of your data literacy work (skills, tools, learning goals).
+    Short description of  data literacy work (skills, tools, learning goals).
   </p>
 </div>
 
@@ -62,7 +62,7 @@ permalink: /research/
   <h3 style="margin-top: 0.8rem; margin-bottom: 0.4rem; clear: both;">Plant Awareness</h3>
   <p>
     <!-- Add your text here -->
-    Short description of your plant awareness work (perception, interventions, measurement).
+    Short description of  plant awareness work (perception, interventions, measurement).
   </p>
 </div>
 
@@ -76,7 +76,7 @@ permalink: /research/
   <h3 style="margin-top: 0.8rem; margin-bottom: 0.4rem; clear: both;">Tree growth in cold climates</h3>
   <p>
     <!-- Add your text here -->
-    Short description of your tree growth work (treeline, frost/cold constraints, physiology, field sites).
+    Short description of  tree growth work (treeline, frost/cold constraints, physiology, field sites).
   </p>
 </div>
 
