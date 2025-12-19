@@ -9,19 +9,13 @@ permalink: /research/
 ## Main research areas
 
 <div>
-  <img
-    src="/research_overview.jpg"
-    alt="Research overview"
-    width="220"
-    style="float: right; margin: 0 0 0.4rem 1rem !important; border-radius: 12px; max-width: 100%; height: auto;"
-  >
   <p>
     I am working on research projects in the areas of biology education and plant ecology and the combination of the two.
     I am especially interested in how an effective education on ecology can help students understand the complex and
     emergent processes of ecosystems.
   </p>
 </div>
-<div style="clear: both;"></div>
+
 
 <h2 style="margin-top: 1rem; margin-bottom: 0.7rem; clear: both;">Projects</h2>
 
