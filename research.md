@@ -29,7 +29,7 @@ permalink: /research/
   <h3 style="margin-top: 0.2rem; margin-bottom: 0.4rem;">Ecological Literacy</h3>
   <p>
     <!-- Add your text here -->
-    Short description of ecological literacy work.
+    Climate change, biodiversity loss, and land-use change pose unprecedented challenges to contemporary societies. Addressing these challenges requires a deep and operational understanding of ecological processes and their interactions with society. My research therefore focuses on four interrelated questions: What ecological knowledge and concepts do students need in order to competently engage with ecological problems? How do students understand and interpret core ecological concepts, particularly in complex, real-world scenarios? How do values and normative orientations interact with ecological knowledge in shaping students’ reasoning and decision-making? And how can ecological competence be fostered and assessed in order to evaluate the effectiveness of educational interventions?
   </p>
 </div>
 <div style="clear: both;"></div>
