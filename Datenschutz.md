@@ -25,7 +25,7 @@ https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement
 
 ## Kontakt
 Für Datenschutzanfragen kontaktieren Sie mich bitte unter:  
-**lars.dietrich@uni-giessen.de**
+[Email](mailto:lars.dietrich@uni-giessen.de)
 
 ## Verantwortlicher gemäß DSGVO
 Dr. Lars Dietrich  
