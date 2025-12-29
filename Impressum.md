@@ -12,7 +12,7 @@ Karl-Glöckner-Str. 21 C
 35394 Gießen  
 Deutschland  
 
-**E-Mail:** lars.dietrich@uni-giessen.de
+[E-Mail](mailto:lars.dietrich@uni-giessen.de)
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 Dr. Lars Dietrich  
