@@ -15,7 +15,8 @@
   --sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial,
           "Segoe UI", Roboto, "Noto Sans", "Liberation Sans", sans-serif;
 
-  --logo-h: 54px;
+  /* Logo größer (~200% gegenüber vorher 54px) */
+  --logo-h: 108px;
 }
 
 *{ box-sizing: border-box; }
@@ -39,7 +40,6 @@ body{
   padding: 44px 20px !important;
 }
 
-/* nix sticky/fixed */
 header, .site-header, nav, footer, .site-footer{
   position: static !important;
   top: auto !important;
@@ -48,7 +48,6 @@ header, .site-header, nav, footer, .site-footer{
   bottom: auto !important;
 }
 
-/* Theme-Sidebar neutralisieren */
 header, section{
   float: none !important;
   width: auto !important;
@@ -58,17 +57,16 @@ header, section{
 
 .site-header{
   display: flex !important;
-  align-items: center !important;          /* <- wichtig: Logo + Nav auf gleicher Achse */
+  align-items: center !important;
   justify-content: space-between !important;
   gap: 16px !important;
 
   padding-bottom: 18px !important;
   border-bottom: 1px solid var(--line) !important;
 
-  overflow: visible !important;            /* <- falls Theme clippt */
+  overflow: visible !important;
 }
 
-/* Content */
 .site-main{
   max-width: var(--content) !important;
   margin: 0 auto !important;
@@ -77,10 +75,10 @@ header, section{
 
 .site-main > :first-child{ margin-top: 0.6rem !important; }
 
-/* ===== Logo (Desktop-fest) ===== */
+/* Logo */
 .brand{
   flex: 1 1 auto;
-  min-width: 0;                            /* <- erlaubt shrink statt „verschwinden/überlappen“ */
+  min-width: 0;
 }
 
 .site-brand{
@@ -91,15 +89,18 @@ header, section{
 }
 
 .site-logo{
-  display: block !important;               /* <- Theme kann img verstecken */
+  display: block !important;
   visibility: visible !important;
   opacity: 1 !important;
 
   height: var(--logo-h) !important;
   width: auto !important;
 
-  max-width: min(560px, 62vw);             /* <- verhindert, dass es zu breit wird */
+  /* mehr Platz erlauben */
+  max-width: min(900px, 70vw);
 }
+
+.site-brand:hover .site-logo{ opacity: 0.92; }
 
 /* Nav */
 .nav-area{
@@ -154,7 +155,7 @@ header, section{
   font-weight: 600 !important;
 }
 
-/* Content Typo */
+/* Content */
 h1{ font-size: 2.0rem; letter-spacing: -0.03em; margin: 0 0 1rem; }
 h2{ font-size: 1.35rem; letter-spacing: -0.02em; margin-top: 2.0rem; }
 h3{ font-size: 1.10rem; margin-top: 1.4rem; }
@@ -221,7 +222,7 @@ img{
   .footer-copy{ margin-left: 0; white-space: normal; }
 }
 
-/* Mobile Nav */
+/* Mobile */
 .nav-toggle{
   display: none;
   border: 1px solid var(--line);
@@ -235,11 +236,13 @@ img{
 }
 
 @media (max-width: 760px){
-  :root{ --logo-h: 46px; }
+  /* Mobile ebenfalls größer, aber nicht ganz 200% */
+  :root{ --logo-h: 76px; }
 
   .site-header{
     flex-direction: column !important;
     align-items: flex-start !important;
+    gap: 12px !important;
   }
 
   .nav-area{
@@ -249,7 +252,7 @@ img{
 
   .nav-toggle{
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 6px;
   }
 
   .site-nav{
