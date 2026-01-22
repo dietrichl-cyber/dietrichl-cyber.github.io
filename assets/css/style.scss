@@ -14,12 +14,15 @@
   /* warmes Off-white */
   --bg: #FBF7F0;
 
-  /* Name color */
+  /* Pflanzen-Grün */
   --leaf: #2B7A43;
 
   /* “science/clean” Sans Stack */
   --sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial,
           "Segoe UI", Roboto, "Noto Sans", "Liberation Sans", sans-serif;
+
+  /* Logo-Höhe (Desktop) */
+  --logo-h: 54px;
 }
 
 *{ box-sizing: border-box; }
@@ -80,39 +83,43 @@ header, section{
   margin-top: 0.6rem !important;
 }
 
-/* Brand */
-.brand{ min-width: 260px; }
-
-.site-title{
-  margin: 0 !important;
-  font-size: 2.55rem !important;
-  letter-spacing: -0.04em; /* leicht “modern/science” */
-  line-height: 1.02;
+/* ===== Brand / Logo ===== */
+.brand{
+  min-width: 220px;
 }
 
-.site-title a{
-  color: var(--leaf) !important;
-  text-decoration: none !important;
-  font-family: var(--sans);
-  font-weight: 800;       /* wirkt klar/technisch ohne Tracking */
-  letter-spacing: -0.015em;
+.site-brand{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
 }
 
-.site-title a:hover{
-  text-decoration: underline !important;
-  text-decoration-thickness: .09em;
-  text-underline-offset: .18em;
+.site-logo{
+  height: var(--logo-h);
+  width: auto;
+  display: block;
 }
 
-.site-tagline{
-  margin: 6px 0 0 1.1ch !important;
-  font-size: 0.92rem !important;
-  line-height: 1.2;
-  letter-spacing: 0;
-  color: rgba(17, 17, 17, 0.55) !important;
+.site-brand:hover .site-logo{
+  opacity: 0.92;
 }
 
-/* Nav */
+/* Screenreader-only (Titel/Untertitel bleiben für SEO/Accessibility da) */
+.sr-only{
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0,0,0,0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* ===== Nav ===== */
 .nav-area{
   display: flex;
   flex-direction: column;
@@ -255,6 +262,8 @@ img{
 }
 
 @media (max-width: 760px){
+  :root{ --logo-h: 46px; }
+
   .site-header{
     flex-direction: column !important;
     align-items: flex-start !important;
@@ -290,9 +299,5 @@ img{
     border: 1px solid var(--line) !important;
     border-radius: 12px !important;
     background: rgba(255,255,255,0.70);
-  }
-
-  .site-tagline{
-    margin-left: 0 !important;
   }
 }
