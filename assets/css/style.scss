@@ -9,11 +9,11 @@
   --content: 920px;
 
   --text: #111;
-  --muted: #526;
+  --muted: #556;
   --line: #e8e8e8;
 
-  /* dunkles Blattgrün */
-  --leaf: #0B3D2E;
+  /* helleres Blattgrün (weniger dunkel als vorher) */
+  --leaf: #1E6B3A;
 }
 
 *{ box-sizing: border-box; }
@@ -25,10 +25,20 @@ body{
   letter-spacing: -0.01em;
 }
 
+/* Wrapper */
 .wrapper{
   max-width: var(--page) !important;
   margin: 0 auto !important;
   padding: 44px 20px !important;
+}
+
+/* --- Ganz wichtig: nichts soll "sticky/fixed" sein --- */
+header, .site-header, nav, footer, .site-footer{
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
 }
 
 /* Minimal Theme "Sidebar"-Layout neutralisieren */
@@ -39,9 +49,10 @@ header, section{
   padding: 0 !important;
 }
 
+/* Header Layout */
 .site-header{
   display: flex !important;
-  align-items: flex-end !important;
+  align-items: flex-start !important;     /* <- verhindert das "Quetschen" */
   justify-content: space-between !important;
   gap: 16px !important;
 
@@ -53,16 +64,19 @@ header, section{
 .site-main{
   max-width: var(--content) !important;
   margin: 0 auto !important;
-  padding: 26px 0 0 0 !important;
+  padding: 30px 0 0 0 !important;         /* <- "Welcome" bekommt Luft */
 }
 
-/* ===== Brand (Name + Tagline Overlay) ===== */
+/* falls das erste Element trotzdem zu hoch sitzt */
+.site-main > :first-child{
+  margin-top: 0.6rem !important;
+}
+
+/* ===== Brand (Name + Tagline) ===== */
 .brand{
-  position: relative;
   min-width: 260px;
 }
 
-/* Name: größer + Blattgrün */
 .site-title{
   margin: 0 !important;
   font-size: 2.55rem !important;
@@ -81,24 +95,14 @@ header, section{
   text-underline-offset: .18em;
 }
 
-/*
-  Tagline als Overlay:
-  - nimmt keinen Platz im Layout weg (nicht mehr gequetscht)
-  - startet optisch "hinter" dem L (per left offset)
-*/
+/* Tagline: NICHT mehr overlay/absolute -> kein Überdecken mehr
+   Aber leicht eingerückt, damit sie optisch "hinter dem L" startet */
 .site-tagline{
-  position: absolute;
-  left: 1.10ch;          /* verschiebt ab “L” nach rechts */
-  top: 0.78em;           /* sitzt halb über dem Namen */
-  margin: 0 !important;
-
-  font-size: 0.78rem !important;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-
-  color: rgba(17, 17, 17, 0.45) !important;
-  pointer-events: none;  /* damit Hover nicht “komisch” wird */
-  white-space: nowrap;
+  margin: 6px 0 0 1.1ch !important;
+  font-size: 0.90rem !important;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: rgba(17, 17, 17, 0.55) !important;
 }
 
 /* ===== Nav ===== */
@@ -122,13 +126,13 @@ header, section{
   align-items: center !important;
 
   white-space: nowrap !important;
-  overflow-x: auto !important;     /* falls der Viewport sehr schmal ist */
+  overflow-x: auto !important;
   -webkit-overflow-scrolling: touch;
 }
 
 .site-nav ul li{ margin: 0 !important; }
 
-/* Kein Springen: Border ist immer da (transparent) */
+/* Kein Springen: Border immer da */
 .site-nav a{
   display: inline-block !important;
   padding: 6px 10px !important;
@@ -155,7 +159,7 @@ header, section{
 }
 
 /* ===== Typo im Content ===== */
-h1{ font-size: 2.0rem; letter-spacing: -0.04em; }
+h1{ font-size: 2.0rem; letter-spacing: -0.04em; margin: 0 0 1rem; }
 h2{ font-size: 1.35rem; letter-spacing: -0.02em; margin-top: 2.0rem; }
 h3{ font-size: 1.10rem; margin-top: 1.4rem; }
 p{ margin: 0 0 0.95rem; }
@@ -251,12 +255,8 @@ img{
     border-radius: 12px !important;
   }
 
-  /* Overlay-Tagline auf Mobile etwas “normaler”, damit es nicht komisch überlappt */
+  /* Tagline auf Mobile ohne Einrückung */
   .site-tagline{
-    position: static;
-    margin-top: 8px !important;
-    pointer-events: auto;
-    color: rgba(17, 17, 17, 0.6) !important;
-    white-space: normal;
+    margin-left: 0 !important;
   }
 }
