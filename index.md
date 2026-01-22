@@ -30,7 +30,7 @@ title: "Home"
 
 <div>
   <img
-    src="/book.jpeg"
+    src="/book.webp"
     alt="Chemie im Biologiestudium"
     width="200"
     style="float: right; margin: 0 0 0.4rem 1rem !important; border-radius: 12px; max-width: 100%; height: auto;"
