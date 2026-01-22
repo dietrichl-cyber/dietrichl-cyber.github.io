@@ -8,8 +8,159 @@
     <!-- Theme CSS (vom GitHub Pages Theme) -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
-    <!-- Dein Design-Override (neu) -->
-    <link rel="stylesheet" href="{{ '/assets/css/override.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!-- DESIGN OVERRIDE: alles hier drin -> keine Extra-Dateien nötig -->
+    <style>
+      :root{
+        --max: 980px;
+        --text: #111;
+        --muted: #555;
+        --line: #e8e8e8;
+        --bg: #ffffff;
+      }
+
+      *{ box-sizing: border-box; }
+      html{ scroll-behavior: smooth; }
+
+      body{
+        margin: 0;
+        color: var(--text);
+        background: var(--bg);
+        font: 18px/1.75 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        letter-spacing: -0.01em;
+      }
+
+      .wrapper{
+        max-width: var(--max);
+        margin: 0 auto;
+        padding: 48px 22px;
+      }
+
+      a{
+        color: inherit;
+        text-decoration-thickness: .08em;
+        text-underline-offset: .18em;
+      }
+      a:hover{ text-decoration-thickness: .14em; }
+
+      /* Header + horizontale Nav */
+      .site-header{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 18px;
+        padding-bottom: 22px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .brand{ min-width: 220px; }
+
+      .site-title{
+        margin: 0;
+        font-size: 2.0rem;
+        letter-spacing: -0.04em;
+      }
+      .site-title a{ text-decoration: none; }
+      .site-title a:hover{ text-decoration: underline; }
+
+      .site-tagline{
+        margin: 6px 0 0 0;
+        color: var(--muted);
+        font-size: 1rem;
+      }
+
+      .nav-area{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+      }
+
+      .site-nav ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: flex-end;
+      }
+
+      .site-nav a{
+        display: inline-block;
+        padding: 8px 12px;
+        border-radius: 999px;
+        text-decoration: none;
+        border: 1px solid transparent;
+      }
+
+      .site-nav a:hover{ border-color: var(--line); }
+
+      .site-nav a.active{
+        border-color: var(--line);
+        background: #fafafa;
+        font-weight: 600;
+      }
+
+      .site-main{ padding-top: 28px; }
+
+      /* Typografie */
+      h1{ font-size: 2.1rem; letter-spacing: -0.04em; margin: 0 0 1rem; }
+      h2{ font-size: 1.5rem; letter-spacing: -0.02em; margin: 2.2rem 0 .8rem; }
+      h3{ font-size: 1.15rem; margin: 1.6rem 0 .6rem; }
+
+      p{ margin: 0 0 1rem; }
+      li{ margin: .25rem 0; }
+
+      hr{
+        border: 0;
+        border-top: 1px solid var(--line);
+        margin: 2rem 0;
+      }
+
+      img{
+        max-width: 100%;
+        height: auto;
+        border-radius: 18px;
+      }
+
+      table{ width: 100%; border-collapse: collapse; }
+      th, td{ padding: 10px 8px; border-bottom: 1px solid var(--line); }
+      th{ text-align: left; }
+
+      /* Mobile Nav */
+      .nav-toggle{
+        display: none;
+        border: 1px solid var(--line);
+        background: #fff;
+        padding: 8px 12px;
+        border-radius: 10px;
+        font-size: 0.95rem;
+        cursor: pointer;
+      }
+
+      @media (max-width: 860px){
+        .site-header{ align-items: flex-start; }
+      }
+
+      @media (max-width: 700px){
+        .wrapper{ padding: 28px 16px; }
+        .nav-toggle{ display: inline-block; }
+
+        .site-nav{ display: none; margin-top: 10px; }
+        .site-nav.open{ display: block; }
+
+        .site-nav ul{
+          flex-direction: column;
+          align-items: stretch;
+          gap: 6px;
+        }
+
+        .site-nav a{
+          border: 1px solid var(--line);
+          border-radius: 12px;
+        }
+      }
+    </style>
   </head>
 
   <body>
