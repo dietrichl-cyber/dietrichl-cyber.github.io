@@ -13,13 +13,17 @@
     <div class="wrapper">
       <header class="site-header">
         <div class="brand">
-          <h1 class="site-title">
-            <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-          </h1>
-
-          {% if site.description %}
-          <p class="site-tagline">{{ site.description }}</p>
-          {% endif %}
+          <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}">
+            <img class="site-logo"
+                 src="{{ '/assets/img/logo.svg' | relative_url }}"
+                 alt=""
+                 width="240"
+                 height="60">
+            <span class="sr-only">{{ site.title }}</span>
+            {% if site.description %}
+            <span class="sr-only">{{ site.description }}</span>
+            {% endif %}
+          </a>
         </div>
 
         <div class="nav-area">
