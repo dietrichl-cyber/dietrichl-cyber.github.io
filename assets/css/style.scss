@@ -12,10 +12,10 @@
   --muted: #556;
   --line: #e8e8e8;
 
-  /* Off-white background (minimal heller, damit Bilder knackiger wirken) */
-  --bg: #FCFCFA;
+  /* Off-white background (wärmer, “papieriger”) */
+  --bg: #FBF7F0;
 
-  /* Name: etwas heller als vorher */
+  /* Name color */
   --leaf: #2B7A43;
 }
 
@@ -248,7 +248,7 @@ img{
   display: none;
   border: 1px solid var(--line);
 
-  /* gleiche Farbe wie Links/Text (kein hellblau) */
+  /* gleiche Farbe wie Links/Text */
   color: inherit !important;
 
   background: rgba(255,255,255,0.85);
