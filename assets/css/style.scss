@@ -3,27 +3,34 @@
 
 @import "{{ site.theme }}";
 
-/* ===== Lars: Clean / Squarespace-ish overrides ===== */
+/* ===== Lars: Clean overrides (stable nav + smaller type) ===== */
 :root{
-  --max: 980px;
+  --page: 1200px;   /* Gesamtbreite (damit die Nav in eine Zeile passt) */
+  --content: 920px; /* Textbreite (damit Absätze nicht zu breit werden) */
+
   --text: #111;
-  --muted: #555;
+  --muted: #556;
   --line: #e8e8e8;
-  --bg: #ffffff;
 }
 
+/* Basis-Typo kleiner */
 *{ box-sizing: border-box; }
-html{ scroll-behavior: smooth; }
 
 body{
   margin: 0 !important;
   color: var(--text);
-  background: var(--bg);
-  font: 18px/1.75 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font: 16px/1.7 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; /* kleiner */
   letter-spacing: -0.01em;
 }
 
-/* Minimal-Theme “Side header” neutralisieren */
+/* Gesamt-Layout */
+.wrapper{
+  max-width: var(--page) !important;
+  margin: 0 auto !important;
+  padding: 44px 20px !important;
+}
+
+/* Minimal-Theme Side-Layout neutralisieren */
 header{
   float: none !important;
   position: static !important;
@@ -31,59 +38,51 @@ header{
   padding: 0 !important;
   margin: 0 !important;
 
-  display: grid !important;
-  grid-template-columns: 1fr auto;
-  grid-template-areas:
-    "title nav"
-    "tag   nav";
-  align-items: end;
-  column-gap: 18px;
-  row-gap: 6px;
+  display: flex !important;
+  align-items: flex-end !important;
+  justify-content: space-between !important;
+  gap: 16px !important;
 
-  padding-bottom: 22px !important;
+  padding-bottom: 18px !important;
   border-bottom: 1px solid var(--line) !important;
 }
 
 section{
   float: none !important;
   width: auto !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* Layout-Wrapper */
-.wrapper{
-  max-width: var(--max) !important;
   margin: 0 auto !important;
-  padding: 48px 22px !important;
+  padding: 26px 0 0 0 !important;
+  max-width: var(--content) !important; /* Text nicht zu breit */
 }
 
-/* Title + Tagline */
+/* Title: größer + forestgreen */
 header h1{
-  grid-area: title;
   margin: 0 !important;
-  font-size: 2.0rem !important;
-  letter-spacing: -0.04em;
-}
-
-header p{
-  grid-area: tag;
-  margin: 0 !important;
-  color: var(--muted);
-  font-size: 1rem;
+  font-size: 2.35rem !important;         /* größer */
+  letter-spacing: -0.045em;
+  line-height: 1.1;
 }
 
 header h1 a{
+  color: forestgreen !important;          /* Wunschfarbe */
   text-decoration: none !important;
-  color: inherit !important;
-}
-header h1 a:hover{
-  text-decoration: underline !important;
 }
 
-/* Nav */
+header h1 a:hover{
+  text-decoration: underline !important;
+  text-decoration-thickness: .10em;
+  text-underline-offset: .18em;
+}
+
+/* Tagline */
+header p{
+  margin: 6px 0 0 0 !important;
+  color: var(--muted) !important;
+  font-size: 0.95rem !important;
+}
+
+/* ===== NAV: eine Zeile + kein Springen ===== */
 header nav{
-  grid-area: nav;
   margin: 0 !important;
 }
 
@@ -92,23 +91,32 @@ header nav ul{
   margin: 0 !important;
   padding: 0 !important;
 
-  display: flex !important;        /* <-- macht es horizontal */
-  flex-wrap: wrap !important;
-  gap: 10px !important;
-  justify-content: flex-end !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;        /* <- verhindert Zeilenumbruch */
+  gap: 8px !important;
+  align-items: center !important;
+
+  white-space: nowrap !important;      /* <- verhindert Umbruch innerhalb */
+  overflow-x: auto !important;         /* <- wenn’s doch eng wird: scroll statt wrap */
+  -webkit-overflow-scrolling: touch;
 }
 
 header nav ul li{
-  margin: 0 !important;            /* überschreibt margin-bottom aus altem CSS */
+  margin: 0 !important;
 }
 
+/* WICHTIG: Border immer da (transparent) -> keine Breitenänderung auf Hover */
 header nav a{
   display: inline-block !important;
-  padding: 8px 12px !important;
+  padding: 6px 10px !important;
   border-radius: 999px !important;
+
+  border: 1px solid transparent !important; /* <- stabil */
   text-decoration: none !important;
-  border: 1px solid transparent !important;
-  color: inherit !important;
+
+  font-size: 0.92rem !important;  /* kleiner fürs Menü */
+  font-weight: 500 !important;    /* konstant -> kein Jump */
+  line-height: 1.2 !important;
 }
 
 header nav a:hover{
@@ -122,30 +130,28 @@ header nav a.active{
   font-weight: 600 !important;
 }
 
-/* Typografie */
-h1{ font-size: 2.1rem; letter-spacing: -0.04em; }
-h2{ font-size: 1.5rem; letter-spacing: -0.02em; margin-top: 2.2rem; }
-h3{ font-size: 1.15rem; margin-top: 1.6rem; }
-p{ margin: 0 0 1rem; }
-li{ margin: .25rem 0; }
+/* Headings im Content etwas harmonischer */
+h1{ font-size: 2.0rem; letter-spacing: -0.04em; }
+h2{ font-size: 1.35rem; letter-spacing: -0.02em; margin-top: 2.0rem; }
+h3{ font-size: 1.10rem; margin-top: 1.4rem; }
+p{ margin: 0 0 0.95rem; }
+li{ margin: .22rem 0; }
 
 hr{
   border: 0;
   border-top: 1px solid var(--line);
-  margin: 2rem 0;
+  margin: 1.8rem 0;
 }
 
+/* Bilder */
 img{
   max-width: 100%;
   height: auto;
-  border-radius: 18px;
+  border-radius: 16px;
 }
 
-/* Mobile Menu */
+/* Mobile Menü-Button */
 .nav-toggle{
-  grid-area: nav;
-  justify-self: end;
-
   display: none;
   border: 1px solid var(--line);
   background: #fff;
@@ -155,28 +161,21 @@ img{
   cursor: pointer;
 }
 
-@media (max-width: 700px){
+/* Auf kleineren Screens: Toggle + Nav untereinander */
+@media (max-width: 760px){
   header{
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "title"
-      "tag"
-      "toggle"
-      "nav";
-    align-items: start;
+    flex-direction: column !important;
+    align-items: flex-start !important;
   }
 
   .nav-toggle{
-    grid-area: toggle;
     display: inline-block;
-    justify-self: start;
     margin-top: 10px;
   }
 
   header nav{
-    grid-area: nav;
     display: none;
-    margin-top: 10px !important;
+    width: 100%;
   }
 
   header nav.open{
@@ -184,10 +183,10 @@ img{
   }
 
   header nav ul{
+    overflow-x: visible !important;
     flex-direction: column !important;
     align-items: stretch !important;
-    gap: 6px !important;
-    justify-content: flex-start !important;
+    white-space: normal !important;
   }
 
   header nav a{
