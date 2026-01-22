@@ -3,41 +3,43 @@
 
 @import "{{ site.theme }}";
 
-/* ===== Lars: Clean overrides (stable nav + smaller type) ===== */
+/* ===== Lars: Layout + Typo ===== */
 :root{
-  --page: 1200px;   /* Gesamtbreite (damit die Nav in eine Zeile passt) */
-  --content: 920px; /* Textbreite (damit Absätze nicht zu breit werden) */
+  --page: 1200px;
+  --content: 920px;
 
   --text: #111;
-  --muted: #556;
+  --muted: #526;
   --line: #e8e8e8;
+
+  /* dunkles Blattgrün */
+  --leaf: #0B3D2E;
 }
 
-/* Basis-Typo kleiner */
 *{ box-sizing: border-box; }
 
 body{
   margin: 0 !important;
   color: var(--text);
-  font: 16px/1.7 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; /* kleiner */
+  font: 16px/1.7 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   letter-spacing: -0.01em;
 }
 
-/* Gesamt-Layout */
 .wrapper{
   max-width: var(--page) !important;
   margin: 0 auto !important;
   padding: 44px 20px !important;
 }
 
-/* Minimal-Theme Side-Layout neutralisieren */
-header{
+/* Minimal Theme "Sidebar"-Layout neutralisieren */
+header, section{
   float: none !important;
-  position: static !important;
   width: auto !important;
-  padding: 0 !important;
   margin: 0 !important;
+  padding: 0 !important;
+}
 
+.site-header{
   display: flex !important;
   align-items: flex-end !important;
   justify-content: space-between !important;
@@ -47,90 +49,112 @@ header{
   border-bottom: 1px solid var(--line) !important;
 }
 
-section{
-  float: none !important;
-  width: auto !important;
+/* Content nicht zu breit */
+.site-main{
+  max-width: var(--content) !important;
   margin: 0 auto !important;
   padding: 26px 0 0 0 !important;
-  max-width: var(--content) !important; /* Text nicht zu breit */
 }
 
-/* Title: größer + forestgreen */
-header h1{
+/* ===== Brand (Name + Tagline Overlay) ===== */
+.brand{
+  position: relative;
+  min-width: 260px;
+}
+
+/* Name: größer + Blattgrün */
+.site-title{
   margin: 0 !important;
-  font-size: 2.35rem !important;         /* größer */
-  letter-spacing: -0.045em;
-  line-height: 1.1;
+  font-size: 2.55rem !important;
+  letter-spacing: -0.05em;
+  line-height: 1.05;
 }
 
-header h1 a{
-  color: forestgreen !important;          /* Wunschfarbe */
+.site-title a{
+  color: var(--leaf) !important;
   text-decoration: none !important;
 }
 
-header h1 a:hover{
+.site-title a:hover{
   text-decoration: underline !important;
   text-decoration-thickness: .10em;
   text-underline-offset: .18em;
 }
 
-/* Tagline */
-header p{
-  margin: 6px 0 0 0 !important;
-  color: var(--muted) !important;
-  font-size: 0.95rem !important;
-}
-
-/* ===== NAV: eine Zeile + kein Springen ===== */
-header nav{
+/*
+  Tagline als Overlay:
+  - nimmt keinen Platz im Layout weg (nicht mehr gequetscht)
+  - startet optisch "hinter" dem L (per left offset)
+*/
+.site-tagline{
+  position: absolute;
+  left: 1.10ch;          /* verschiebt ab “L” nach rechts */
+  top: 0.78em;           /* sitzt halb über dem Namen */
   margin: 0 !important;
+
+  font-size: 0.78rem !important;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+
+  color: rgba(17, 17, 17, 0.45) !important;
+  pointer-events: none;  /* damit Hover nicht “komisch” wird */
+  white-space: nowrap;
 }
 
-header nav ul{
+/* ===== Nav ===== */
+.nav-area{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.site-nav{ margin: 0 !important; }
+
+.site-nav ul{
   list-style: none !important;
   margin: 0 !important;
   padding: 0 !important;
 
   display: flex !important;
-  flex-wrap: nowrap !important;        /* <- verhindert Zeilenumbruch */
+  flex-wrap: nowrap !important;
   gap: 8px !important;
   align-items: center !important;
 
-  white-space: nowrap !important;      /* <- verhindert Umbruch innerhalb */
-  overflow-x: auto !important;         /* <- wenn’s doch eng wird: scroll statt wrap */
+  white-space: nowrap !important;
+  overflow-x: auto !important;     /* falls der Viewport sehr schmal ist */
   -webkit-overflow-scrolling: touch;
 }
 
-header nav ul li{
-  margin: 0 !important;
-}
+.site-nav ul li{ margin: 0 !important; }
 
-/* WICHTIG: Border immer da (transparent) -> keine Breitenänderung auf Hover */
-header nav a{
+/* Kein Springen: Border ist immer da (transparent) */
+.site-nav a{
   display: inline-block !important;
   padding: 6px 10px !important;
   border-radius: 999px !important;
 
-  border: 1px solid transparent !important; /* <- stabil */
+  border: 1px solid transparent !important;
   text-decoration: none !important;
 
-  font-size: 0.92rem !important;  /* kleiner fürs Menü */
-  font-weight: 500 !important;    /* konstant -> kein Jump */
+  font-size: 0.92rem !important;
+  font-weight: 500 !important;
   line-height: 1.2 !important;
+  color: inherit !important;
 }
 
-header nav a:hover{
+.site-nav a:hover{
   border-color: var(--line) !important;
   text-decoration: none !important;
 }
 
-header nav a.active{
+.site-nav a.active{
   border-color: var(--line) !important;
   background: #fafafa !important;
   font-weight: 600 !important;
 }
 
-/* Headings im Content etwas harmonischer */
+/* ===== Typo im Content ===== */
 h1{ font-size: 2.0rem; letter-spacing: -0.04em; }
 h2{ font-size: 1.35rem; letter-spacing: -0.02em; margin-top: 2.0rem; }
 h3{ font-size: 1.10rem; margin-top: 1.4rem; }
@@ -143,14 +167,43 @@ hr{
   margin: 1.8rem 0;
 }
 
-/* Bilder */
 img{
   max-width: 100%;
   height: auto;
   border-radius: 16px;
 }
 
-/* Mobile Menü-Button */
+/* ===== Footer ===== */
+.site-footer{
+  max-width: var(--content);
+  margin: 34px auto 0 auto;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  color: rgba(17,17,17,0.72);
+  font-size: 0.95rem;
+}
+
+.footer-links a{
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.footer-links a:hover{
+  border-bottom-color: rgba(17,17,17,0.35);
+}
+
+.footer-sep{
+  margin: 0 8px;
+  opacity: 0.6;
+}
+
+.footer-copy{
+  margin-top: 8px;
+  opacity: 0.75;
+}
+
+/* ===== Mobile ===== */
 .nav-toggle{
   display: none;
   border: 1px solid var(--line);
@@ -161,11 +214,15 @@ img{
   cursor: pointer;
 }
 
-/* Auf kleineren Screens: Toggle + Nav untereinander */
 @media (max-width: 760px){
-  header{
+  .site-header{
     flex-direction: column !important;
     align-items: flex-start !important;
+  }
+
+  .nav-area{
+    width: 100%;
+    align-items: flex-start;
   }
 
   .nav-toggle{
@@ -173,24 +230,33 @@ img{
     margin-top: 10px;
   }
 
-  header nav{
+  .site-nav{
     display: none;
     width: 100%;
   }
 
-  header nav.open{
+  .site-nav.open{
     display: block;
   }
 
-  header nav ul{
+  .site-nav ul{
     overflow-x: visible !important;
     flex-direction: column !important;
     align-items: stretch !important;
     white-space: normal !important;
   }
 
-  header nav a{
+  .site-nav a{
     border: 1px solid var(--line) !important;
     border-radius: 12px !important;
+  }
+
+  /* Overlay-Tagline auf Mobile etwas “normaler”, damit es nicht komisch überlappt */
+  .site-tagline{
+    position: static;
+    margin-top: 8px !important;
+    pointer-events: auto;
+    color: rgba(17, 17, 17, 0.6) !important;
+    white-space: normal;
   }
 }
