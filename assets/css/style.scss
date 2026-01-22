@@ -87,17 +87,14 @@ header, section{
   line-height: 1.05;
 }
 
-/* Kapitälchen für den Namen */
+/* Name: ohne Kapitälchen, aber “gesetzt” */
 .site-title a{
   color: var(--leaf) !important;
   text-decoration: none !important;
 
-  /* Kapitälchen (mit Fallback) */
-  font-variant-caps: all-small-caps;
-  font-variant: small-caps;
-
-  /* Kapitälchen brauchen meist etwas Tracking */
-  letter-spacing: 0.08em;
+  /* subtile “editorial”-Optik */
+  letter-spacing: 0.02em;
+  font-weight: 650;
 }
 
 .site-title a:hover{
