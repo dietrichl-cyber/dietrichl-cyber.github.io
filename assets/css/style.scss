@@ -15,7 +15,7 @@
   /* Off-white background */
   --bg: #FAFAF7;
 
-  /* Name color (aktueller Stand, der bei dir „super“ war) */
+  /* Name color */
   --leaf: #1E6B3A;
 }
 
@@ -179,26 +179,35 @@ img{
   border-radius: 16px;
 }
 
-/* ===== Footer: Links links, Copyright rechts ===== */
+/* ===== Footer: volle Breite wie Header + kein Wrap ===== */
 .site-footer{
-  max-width: var(--content);
+  /* volle "Header-Breite" (nicht content-beschränkt) */
+  max-width: var(--page);
   margin: 34px auto 0 auto;
   padding-top: 18px;
   border-top: 1px solid var(--line);
   color: rgba(17,17,17,0.72);
-  font-size: 0.95rem;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
+  gap: 18px;
+
+  /* leicht kleiner, damit alles besser in eine Zeile passt */
+  font-size: 0.92rem;
+
+  /* verhindert, dass Items umbrechen */
+  flex-wrap: nowrap;
 }
 
 .footer-links{
   display: flex;
   align-items: center;
   gap: 8px;
-  flex-wrap: wrap;
+
+  /* verhindert Umbruch innerhalb der Links */
+  white-space: nowrap;
+  flex-wrap: nowrap;
 }
 
 .footer-links a{
@@ -218,20 +227,23 @@ img{
 .footer-copy{
   opacity: 0.75;
   white-space: nowrap;
+  margin-left: auto; /* schiebt es zuverlässig nach rechts */
 }
 
-@media (max-width: 520px){
+/* Auf kleineren Screens lieber untereinander statt "Privacy" umbrechen */
+@media (max-width: 700px){
   .site-footer{
     flex-direction: column;
     align-items: flex-start;
   }
 
   .footer-copy{
+    margin-left: 0;
     white-space: normal;
   }
 }
 
-/* ===== Mobile ===== */
+/* ===== Mobile Nav ===== */
 .nav-toggle{
   display: none;
   border: 1px solid var(--line);
