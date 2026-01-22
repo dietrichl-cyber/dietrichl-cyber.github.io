@@ -12,11 +12,11 @@
   --muted: #556;
   --line: #e8e8e8;
 
-  /* Off-white background */
-  --bg: #FAFAF7;
+  /* Off-white background (minimal heller, damit Bilder knackiger wirken) */
+  --bg: #FCFCFA;
 
-  /* Name color */
-  --leaf: #1E6B3A;
+  /* Name: etwas heller als vorher */
+  --leaf: #2B7A43;
 }
 
 *{ box-sizing: border-box; }
@@ -156,7 +156,7 @@ header, section{
 
 .site-nav a.active{
   border-color: var(--line) !important;
-  background: rgba(255,255,255,0.65) !important;
+  background: rgba(255,255,255,0.70) !important;
   font-weight: 600 !important;
 }
 
@@ -173,17 +173,21 @@ hr{
   margin: 1.8rem 0;
 }
 
+/* Bilder: falls das Theme opacity/filter setzt -> weg damit */
 img{
   max-width: 100%;
   height: auto;
   border-radius: 16px;
+
+  opacity: 1 !important;
+  filter: none !important;
+  mix-blend-mode: normal !important;
 }
 
-/* ===== Footer: volle Breite wie Header + kein Wrap ===== */
+/* ===== Footer: exakt so breit wie Header (innerhalb wrapper) ===== */
 .site-footer{
-  /* volle "Header-Breite" (nicht content-beschränkt) */
-  max-width: var(--page);
-  margin: 34px auto 0 auto;
+  width: 100%;
+  margin: 34px 0 0 0;
   padding-top: 18px;
   border-top: 1px solid var(--line);
   color: rgba(17,17,17,0.72);
@@ -193,10 +197,7 @@ img{
   justify-content: space-between;
   gap: 18px;
 
-  /* leicht kleiner, damit alles besser in eine Zeile passt */
   font-size: 0.92rem;
-
-  /* verhindert, dass Items umbrechen */
   flex-wrap: nowrap;
 }
 
@@ -205,7 +206,6 @@ img{
   align-items: center;
   gap: 8px;
 
-  /* verhindert Umbruch innerhalb der Links */
   white-space: nowrap;
   flex-wrap: nowrap;
 }
@@ -227,10 +227,10 @@ img{
 .footer-copy{
   opacity: 0.75;
   white-space: nowrap;
-  margin-left: auto; /* schiebt es zuverlässig nach rechts */
+  margin-left: auto;
 }
 
-/* Auf kleineren Screens lieber untereinander statt "Privacy" umbrechen */
+/* Auf kleineren Screens: Footer untereinander */
 @media (max-width: 700px){
   .site-footer{
     flex-direction: column;
@@ -247,10 +247,15 @@ img{
 .nav-toggle{
   display: none;
   border: 1px solid var(--line);
-  background: rgba(255,255,255,0.8);
+
+  /* gleiche Farbe wie Links/Text (kein hellblau) */
+  color: inherit !important;
+
+  background: rgba(255,255,255,0.85);
   padding: 8px 12px;
   border-radius: 10px;
   font-size: 0.95rem;
+  font-weight: 500;
   cursor: pointer;
 }
 
@@ -289,7 +294,7 @@ img{
   .site-nav a{
     border: 1px solid var(--line) !important;
     border-radius: 12px !important;
-    background: rgba(255,255,255,0.65);
+    background: rgba(255,255,255,0.70);
   }
 
   .site-tagline{
