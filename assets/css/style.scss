@@ -1,0 +1,197 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ===== Lars: Clean / Squarespace-ish overrides ===== */
+:root{
+  --max: 980px;
+  --text: #111;
+  --muted: #555;
+  --line: #e8e8e8;
+  --bg: #ffffff;
+}
+
+*{ box-sizing: border-box; }
+html{ scroll-behavior: smooth; }
+
+body{
+  margin: 0 !important;
+  color: var(--text);
+  background: var(--bg);
+  font: 18px/1.75 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  letter-spacing: -0.01em;
+}
+
+/* Minimal-Theme “Side header” neutralisieren */
+header{
+  float: none !important;
+  position: static !important;
+  width: auto !important;
+  padding: 0 !important;
+  margin: 0 !important;
+
+  display: grid !important;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "title nav"
+    "tag   nav";
+  align-items: end;
+  column-gap: 18px;
+  row-gap: 6px;
+
+  padding-bottom: 22px !important;
+  border-bottom: 1px solid var(--line) !important;
+}
+
+section{
+  float: none !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Layout-Wrapper */
+.wrapper{
+  max-width: var(--max) !important;
+  margin: 0 auto !important;
+  padding: 48px 22px !important;
+}
+
+/* Title + Tagline */
+header h1{
+  grid-area: title;
+  margin: 0 !important;
+  font-size: 2.0rem !important;
+  letter-spacing: -0.04em;
+}
+
+header p{
+  grid-area: tag;
+  margin: 0 !important;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+header h1 a{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+header h1 a:hover{
+  text-decoration: underline !important;
+}
+
+/* Nav */
+header nav{
+  grid-area: nav;
+  margin: 0 !important;
+}
+
+header nav ul{
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+
+  display: flex !important;        /* <-- macht es horizontal */
+  flex-wrap: wrap !important;
+  gap: 10px !important;
+  justify-content: flex-end !important;
+}
+
+header nav ul li{
+  margin: 0 !important;            /* überschreibt margin-bottom aus altem CSS */
+}
+
+header nav a{
+  display: inline-block !important;
+  padding: 8px 12px !important;
+  border-radius: 999px !important;
+  text-decoration: none !important;
+  border: 1px solid transparent !important;
+  color: inherit !important;
+}
+
+header nav a:hover{
+  border-color: var(--line) !important;
+  text-decoration: none !important;
+}
+
+header nav a.active{
+  border-color: var(--line) !important;
+  background: #fafafa !important;
+  font-weight: 600 !important;
+}
+
+/* Typografie */
+h1{ font-size: 2.1rem; letter-spacing: -0.04em; }
+h2{ font-size: 1.5rem; letter-spacing: -0.02em; margin-top: 2.2rem; }
+h3{ font-size: 1.15rem; margin-top: 1.6rem; }
+p{ margin: 0 0 1rem; }
+li{ margin: .25rem 0; }
+
+hr{
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 2rem 0;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
+
+/* Mobile Menu */
+.nav-toggle{
+  grid-area: nav;
+  justify-self: end;
+
+  display: none;
+  border: 1px solid var(--line);
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+@media (max-width: 700px){
+  header{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "tag"
+      "toggle"
+      "nav";
+    align-items: start;
+  }
+
+  .nav-toggle{
+    grid-area: toggle;
+    display: inline-block;
+    justify-self: start;
+    margin-top: 10px;
+  }
+
+  header nav{
+    grid-area: nav;
+    display: none;
+    margin-top: 10px !important;
+  }
+
+  header nav.open{
+    display: block;
+  }
+
+  header nav ul{
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 6px !important;
+    justify-content: flex-start !important;
+  }
+
+  header nav a{
+    border: 1px solid var(--line) !important;
+    border-radius: 12px !important;
+  }
+}
