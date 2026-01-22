@@ -17,6 +17,9 @@
 
   /* Name color */
   --leaf: #2B7A43;
+
+  /* Academic serif for name */
+  --name-font: "EB Garamond", "Cormorant Garamond", Garamond, "Times New Roman", serif;
 }
 
 *{ box-sizing: border-box; }
@@ -82,24 +85,26 @@ header, section{
 
 .site-title{
   margin: 0 !important;
-  font-size: 2.55rem !important;
-  letter-spacing: -0.05em;
-  line-height: 1.05;
+  font-size: 2.65rem !important;
+  letter-spacing: -0.03em;
+  line-height: 1.0;
 }
 
-/* Name: ohne Kapitälchen, aber “gesetzt” */
+/* Name: akademisch (Serif), kein “tech”-Tracking */
 .site-title a{
   color: var(--leaf) !important;
   text-decoration: none !important;
 
-  /* subtile “editorial”-Optik */
-  letter-spacing: 0.02em;
-  font-weight: 650;
+  font-family: var(--name-font);
+  font-weight: 600;
+  letter-spacing: 0;              /* <- wichtig: kein technischer Abstand */
+  font-kerning: normal;
+  font-feature-settings: "kern" 1, "liga" 1; /* weicher */
 }
 
 .site-title a:hover{
   text-decoration: underline !important;
-  text-decoration-thickness: .10em;
+  text-decoration-thickness: .09em;
   text-underline-offset: .18em;
 }
 
@@ -178,7 +183,7 @@ hr{
   margin: 1.8rem 0;
 }
 
-/* Bilder: falls das Theme opacity/filter setzt -> weg damit */
+/* Bilder: keine Filter/Opacity */
 img{
   max-width: 100%;
   height: auto;
@@ -252,10 +257,7 @@ img{
 .nav-toggle{
   display: none;
   border: 1px solid var(--line);
-
-  /* gleiche Farbe wie Links/Text */
   color: inherit !important;
-
   background: rgba(255,255,255,0.85);
   padding: 8px 12px;
   border-radius: 10px;
