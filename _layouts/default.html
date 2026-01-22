@@ -13,11 +13,15 @@
       <header class="site-header">
         <div class="brand">
           <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}">
-            <img class="site-logo"
-                 src="/logo.svg"
-                 alt="Lars Dietrich – Science Education and Plant Ecology"
-                 width="480"
-                 height="120">
+            <img
+              class="site-logo"
+              src="{{ '/logo.svg?v=' | append: site.github.build_revision | relative_url }}"
+              alt="{{ site.title }} – {{ site.description }}"
+              width="520"
+              height="140"
+              loading="eager"
+              decoding="async"
+            >
           </a>
         </div>
 
