@@ -8,20 +8,13 @@
   --content: 920px;
 
   --text: #111;
-  --muted: #556;
   --line: #e8e8e8;
 
-  /* warmes Off-white */
   --bg: #FBF7F0;
 
-  /* Pflanzen-Grün */
-  --leaf: #2B7A43;
-
-  /* “science/clean” Sans Stack */
   --sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial,
           "Segoe UI", Roboto, "Noto Sans", "Liberation Sans", sans-serif;
 
-  /* Logo-Höhe (Desktop) */
   --logo-h: 54px;
 }
 
@@ -65,48 +58,52 @@ header, section{
 
 .site-header{
   display: flex !important;
-  align-items: flex-start !important;
+  align-items: center !important;          /* <- wichtig: Logo + Nav auf gleicher Achse */
   justify-content: space-between !important;
   gap: 16px !important;
 
   padding-bottom: 18px !important;
   border-bottom: 1px solid var(--line) !important;
+
+  overflow: visible !important;            /* <- falls Theme clippt */
 }
 
+/* Content */
 .site-main{
   max-width: var(--content) !important;
   margin: 0 auto !important;
   padding: 30px 0 0 0 !important;
 }
 
-.site-main > :first-child{
-  margin-top: 0.6rem !important;
-}
+.site-main > :first-child{ margin-top: 0.6rem !important; }
 
-/* ===== Brand / Logo ===== */
+/* ===== Logo (Desktop-fest) ===== */
 .brand{
-  min-width: 220px;
+  flex: 1 1 auto;
+  min-width: 0;                            /* <- erlaubt shrink statt „verschwinden/überlappen“ */
 }
 
 .site-brand{
-  display: inline-flex;
-  align-items: center;
+  display: inline-flex !important;
+  align-items: center !important;
   text-decoration: none;
   color: inherit;
 }
 
 .site-logo{
-  height: var(--logo-h);
-  width: auto;
-  display: block;
+  display: block !important;               /* <- Theme kann img verstecken */
+  visibility: visible !important;
+  opacity: 1 !important;
+
+  height: var(--logo-h) !important;
+  width: auto !important;
+
+  max-width: min(560px, 62vw);             /* <- verhindert, dass es zu breit wird */
 }
 
-.site-brand:hover .site-logo{
-  opacity: 0.92;
-}
-
-/* ===== Nav ===== */
+/* Nav */
 .nav-area{
+  flex: 0 0 auto;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -174,7 +171,6 @@ img{
   max-width: 100%;
   height: auto;
   border-radius: 16px;
-
   opacity: 1 !important;
   filter: none !important;
   mix-blend-mode: normal !important;
@@ -211,10 +207,7 @@ img{
   border-bottom: 1px solid transparent;
 }
 
-.footer-links a:hover{
-  border-bottom-color: rgba(17,17,17,0.35);
-}
-
+.footer-links a:hover{ border-bottom-color: rgba(17,17,17,0.35); }
 .footer-sep{ opacity: 0.6; }
 
 .footer-copy{
@@ -224,14 +217,8 @@ img{
 }
 
 @media (max-width: 700px){
-  .site-footer{
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .footer-copy{
-    margin-left: 0;
-    white-space: normal;
-  }
+  .site-footer{ flex-direction: column; align-items: flex-start; }
+  .footer-copy{ margin-left: 0; white-space: normal; }
 }
 
 /* Mobile Nav */
@@ -270,9 +257,7 @@ img{
     width: 100%;
   }
 
-  .site-nav.open{
-    display: block;
-  }
+  .site-nav.open{ display: block; }
 
   .site-nav ul{
     overflow-x: visible !important;
@@ -285,5 +270,9 @@ img{
     border: 1px solid var(--line) !important;
     border-radius: 12px !important;
     background: rgba(255,255,255,0.70);
+  }
+
+  .site-logo{
+    max-width: 100%;
   }
 }
