@@ -3,7 +3,6 @@
 
 @import "{{ site.theme }}";
 
-/* ===== Lars: Layout + Typo ===== */
 :root{
   --page: 1200px;
   --content: 920px;
@@ -12,14 +11,15 @@
   --muted: #556;
   --line: #e8e8e8;
 
-  /* Off-white background (wärmer, “papieriger”) */
+  /* warmes Off-white */
   --bg: #FBF7F0;
 
   /* Name color */
   --leaf: #2B7A43;
 
-  /* Academic serif for name */
-  --name-font: "EB Garamond", "Cormorant Garamond", Garamond, "Times New Roman", serif;
+  /* “science/clean” Sans Stack */
+  --sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial,
+          "Segoe UI", Roboto, "Noto Sans", "Liberation Sans", sans-serif;
 }
 
 *{ box-sizing: border-box; }
@@ -28,18 +28,22 @@ body{
   margin: 0 !important;
   color: var(--text);
   background: var(--bg);
-  font: 16px/1.7 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.7;
   letter-spacing: -0.01em;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Wrapper */
 .wrapper{
   max-width: var(--page) !important;
   margin: 0 auto !important;
   padding: 44px 20px !important;
 }
 
-/* --- Nichts soll sticky/fixed sein (Theme neutralisieren) --- */
+/* nix sticky/fixed */
 header, .site-header, nav, footer, .site-footer{
   position: static !important;
   top: auto !important;
@@ -48,7 +52,7 @@ header, .site-header, nav, footer, .site-footer{
   bottom: auto !important;
 }
 
-/* Minimal Theme "Sidebar"-Layout neutralisieren */
+/* Theme-Sidebar neutralisieren */
 header, section{
   float: none !important;
   width: auto !important;
@@ -56,7 +60,6 @@ header, section{
   padding: 0 !important;
 }
 
-/* Header Layout */
 .site-header{
   display: flex !important;
   align-items: flex-start !important;
@@ -67,7 +70,6 @@ header, section{
   border-bottom: 1px solid var(--line) !important;
 }
 
-/* Content nicht zu breit */
 .site-main{
   max-width: var(--content) !important;
   margin: 0 auto !important;
@@ -78,28 +80,22 @@ header, section{
   margin-top: 0.6rem !important;
 }
 
-/* ===== Brand (Name + Tagline) ===== */
-.brand{
-  min-width: 260px;
-}
+/* Brand */
+.brand{ min-width: 260px; }
 
 .site-title{
   margin: 0 !important;
-  font-size: 2.65rem !important;
-  letter-spacing: -0.03em;
-  line-height: 1.0;
+  font-size: 2.55rem !important;
+  letter-spacing: -0.04em; /* leicht “modern/science” */
+  line-height: 1.02;
 }
 
-/* Name: akademisch (Serif), kein “tech”-Tracking */
 .site-title a{
   color: var(--leaf) !important;
   text-decoration: none !important;
-
-  font-family: var(--name-font);
-  font-weight: 600;
-  letter-spacing: 0;              /* <- wichtig: kein technischer Abstand */
-  font-kerning: normal;
-  font-feature-settings: "kern" 1, "liga" 1; /* weicher */
+  font-family: var(--sans);
+  font-weight: 800;       /* wirkt klar/technisch ohne Tracking */
+  letter-spacing: -0.015em;
 }
 
 .site-title a:hover{
@@ -108,16 +104,15 @@ header, section{
   text-underline-offset: .18em;
 }
 
-/* Tagline: sauber darunter, leicht eingerückt */
 .site-tagline{
   margin: 6px 0 0 1.1ch !important;
-  font-size: 0.90rem !important;
+  font-size: 0.92rem !important;
   line-height: 1.2;
-  letter-spacing: 0.01em;
+  letter-spacing: 0;
   color: rgba(17, 17, 17, 0.55) !important;
 }
 
-/* ===== Nav ===== */
+/* Nav */
 .nav-area{
   display: flex;
   flex-direction: column;
@@ -144,7 +139,6 @@ header, section{
 
 .site-nav ul li{ margin: 0 !important; }
 
-/* Kein Springen: Border immer da */
 .site-nav a{
   display: inline-block !important;
   padding: 6px 10px !important;
@@ -170,8 +164,8 @@ header, section{
   font-weight: 600 !important;
 }
 
-/* ===== Typo im Content ===== */
-h1{ font-size: 2.0rem; letter-spacing: -0.04em; margin: 0 0 1rem; }
+/* Content Typo */
+h1{ font-size: 2.0rem; letter-spacing: -0.03em; margin: 0 0 1rem; }
 h2{ font-size: 1.35rem; letter-spacing: -0.02em; margin-top: 2.0rem; }
 h3{ font-size: 1.10rem; margin-top: 1.4rem; }
 p{ margin: 0 0 0.95rem; }
@@ -183,7 +177,6 @@ hr{
   margin: 1.8rem 0;
 }
 
-/* Bilder: keine Filter/Opacity */
 img{
   max-width: 100%;
   height: auto;
@@ -194,7 +187,7 @@ img{
   mix-blend-mode: normal !important;
 }
 
-/* ===== Footer: exakt so breit wie Header (innerhalb wrapper) ===== */
+/* Footer */
 .site-footer{
   width: 100%;
   margin: 34px 0 0 0;
@@ -215,7 +208,6 @@ img{
   display: flex;
   align-items: center;
   gap: 8px;
-
   white-space: nowrap;
   flex-wrap: nowrap;
 }
@@ -230,9 +222,7 @@ img{
   border-bottom-color: rgba(17,17,17,0.35);
 }
 
-.footer-sep{
-  opacity: 0.6;
-}
+.footer-sep{ opacity: 0.6; }
 
 .footer-copy{
   opacity: 0.75;
@@ -240,20 +230,18 @@ img{
   margin-left: auto;
 }
 
-/* Auf kleineren Screens: Footer untereinander */
 @media (max-width: 700px){
   .site-footer{
     flex-direction: column;
     align-items: flex-start;
   }
-
   .footer-copy{
     margin-left: 0;
     white-space: normal;
   }
 }
 
-/* ===== Mobile Nav ===== */
+/* Mobile Nav */
 .nav-toggle{
   display: none;
   border: 1px solid var(--line);
