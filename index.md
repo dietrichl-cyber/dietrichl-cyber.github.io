@@ -7,7 +7,7 @@ title: "Home"
 
 <div>
   <img
-    src="/IMG_1922.HEIC"
+    src="/IMG_1922.jpg"
     alt="Lars Dietrich"
     width="200"
     style="float: right; margin: 0 0 0.4rem 1rem !important; border-radius: 12px; max-width: 100%; height: auto;"
