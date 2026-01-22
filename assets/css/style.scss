@@ -15,8 +15,8 @@
   --sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial,
           "Segoe UI", Roboto, "Noto Sans", "Liberation Sans", sans-serif;
 
-  /* Logo größer (~200% gegenüber vorher 54px) */
-  --logo-h: 108px;
+  /* Desktop: ~10% kleiner als 108px */
+  --logo-h: 97px;
 }
 
 *{ box-sizing: border-box; }
@@ -96,7 +96,6 @@ header, section{
   height: var(--logo-h) !important;
   width: auto !important;
 
-  /* mehr Platz erlauben */
   max-width: min(900px, 70vw);
 }
 
@@ -236,8 +235,8 @@ img{
 }
 
 @media (max-width: 760px){
-  /* Mobile ebenfalls größer, aber nicht ganz 200% */
-  :root{ --logo-h: 76px; }
+  /* Mobile: etwas größer als vorher (76px -> 86px) */
+  :root{ --logo-h: 86px; }
 
   .site-header{
     flex-direction: column !important;
