@@ -61,7 +61,7 @@ title: "Publications"
 
 - **Dietrich L (2019).** Insular Woodiness – Verholzung bei Inselendemiten. *Schweizerische Beiträge zur Dendrologie*, 69–70, 85–88.
 
-- **FWU (Institute for Movie und Picture in Science and Teaching) (var. years).** Various explanatory short movies for biology teaching, a.o. "Traits of Life", "Competition", "Ecosystem Lake", "Animals of the Alpine", "Carnivorous Plants".
+- **FWU (Institute for Movie and Picture in Science and Teaching) (var. years).** Various explanatory short movies for biology teaching, a.o. "Traits of Life", "Competition", "Freshwater Lake Ecosystems", "Animals of the Alpine", "Carnivorous Plants".
 
 
 ## Conference contributions
