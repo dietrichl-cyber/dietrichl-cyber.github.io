@@ -8,6 +8,8 @@ title: "Publications"
 
 ## Journal articles
 
+- **Urahne D, Kehle L, Dietrich L, Kremer K (2026).** The Role of Epistemic Beliefs in Predicting ChatGPT Adoption and Avoidance in Higher Education. *Acta Psychologica*
+
 - **Dietrich L, Dittert J, Biestek L, Konnemann C, Asshoff R (2025).** Investigating plant awareness: Image composition affects student perceptions of flora and fauna. *Plants People Planet*. DOI: [10.1002/ppp3.70104](https://doi.org/10.1002/ppp3.70104)
 
 - **Dietrich L, Asshoff R (2025).** Ecosystems have no thermostat: Regulation misleads in ecology education and outreach. *BioScience*, biaf127. DOI: [10.1093/biosci/biaf127](https://doi.org/10.1093/biosci/biaf127)
@@ -47,9 +49,13 @@ title: "Publications"
 
 ## Contributions and teaching materials
 
+- **Dietrich L, Hammann M, Kremer K, Asshoff R (2026).** Die Ökologie braucht das Basiskonzept System zurück. *MNU Journal*
+
 - **Dietrich L, Dankbar J, Asshoff R (2025).** Abitur und Klausur: Trophische Kaskade im Yellowstone Nationalpark. *Unterricht Biologie*, 505, 45–47.
 
 - **Westendorf-Bröring E (ed.) (2023).** *Biologie Heute SI 3 Niedersachsen.* Westermann Bildungsmedien Verlag GmbH: Braunschweig. (Contributor)
+
+- **Dietrich L, Kalker L , Asshoff R (2022).** Vernetzung von Organisationsebenen am Beispiel eines Experiments zu den konservierenden Eigenschaften von Zucker. *MNU Journal*, 22, 145-150.
 
 - **Westendorf-Bröring E (ed.) (2021).** *Biologie Heute SI 2 Niedersachsen.* Westermann Bildungsmedien Verlag GmbH: Braunschweig. (Contributor)
 
