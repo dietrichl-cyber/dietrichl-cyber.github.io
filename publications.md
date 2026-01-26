@@ -8,7 +8,7 @@ title: "Publications"
 
 ## Journal articles
 
-- **Urahne D, Kehle L, Dietrich L, Kremer K (2026).** The Role of Epistemic Beliefs in Predicting ChatGPT Adoption and Avoidance in Higher Education. *Acta Psychologica*. DOI: [10.1016/j.actpsy.2026.106334] (https://doi.org/10.1016/j.actpsy.2026.106334)
+- **Urahne D, Kehle L, Dietrich L, Kremer K (2026).** The Role of Epistemic Beliefs in Predicting ChatGPT Adoption and Avoidance in Higher Education. *Acta Psychologica*. DOI: [10.1016/j.actpsy.2026.106334](https://doi.org/10.1016/j.actpsy.2026.106334)
 
 - **Dietrich L, Dittert J, Biestek L, Konnemann C, Asshoff R (2025).** Investigating plant awareness: Image composition affects student perceptions of flora and fauna. *Plants People Planet*. DOI: [10.1002/ppp3.70104](https://doi.org/10.1002/ppp3.70104)
 
