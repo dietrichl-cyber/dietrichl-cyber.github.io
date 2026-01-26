@@ -71,7 +71,7 @@ permalink: /research/
     width="220"
     style="float: right; margin: 0 0 0.4rem 1rem !important; border-radius: 12px; max-width: 100%; height: auto;"
   >
-  <h3 style="margin-top: 0.2rem; margin-bottom: 0.4rem;">Tree growth in cold climates</h3>
+  <h3 style="margin-top: 0.2rem; margin-bottom: 0.4rem;">Student-AI interactions</h3>
   <p>
     <!-- Add your text here -->
    Lorem ipum dolor sit amet....
