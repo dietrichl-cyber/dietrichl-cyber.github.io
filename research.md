@@ -82,9 +82,11 @@ permalink: /research/
 <h2 style="margin-top: 1rem; margin-bottom: 0.7rem; clear: both;">Collaborations</h2>
 
 - Dr. Roman Asshoff (Ecological Literacy / Plant Awareness; University of Münster)
+- Prof. Detlef Urahne (ChatGPT Use of Students; University of Passau)
+- Dr. Paul Martin (Student-AI interactions in University teaching; JLU Gießen)
+- Prof. Camilo Chiang & Dr. Rafael Suárez (Cross-discipline reasoning; Universidad de Salamanca)
 - Prof. Marcia Eugenio-Gozalbo & Prof. Inés Cubrero (Plant Awareness; Universidad de Valladolid)
 - Prof. Daniel Kaiser & Philipp Flieger (Plant Awareness; Justus Liebig University Giessen)
-- Prof. Camilo Chiang & Dr. Rafael Suárez (Cross-discipline reasoning; Universidad de Salamanca)
 - Prof. Mathias Zeidler (Tree growth in cold climates; Justus Liebig University Giessen)
 - Prof. Christian Körner (Tree growth in cold climates / Alpine Plant Ecology; University of Basel)
 
