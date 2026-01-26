@@ -34,6 +34,7 @@ permalink: /research/
 </div>
 <div style="clear: both;"></div>
 
+
 <div>
   <img
     src="/project_dataliteracy.jpg"
@@ -48,6 +49,7 @@ permalink: /research/
   </p>
 </div>
 <div style="clear: both;"></div>
+
 
 <div>
   <img
@@ -64,6 +66,7 @@ permalink: /research/
 </div>
 <div style="clear: both;"></div>
 
+
 <div>
   <img
     src="/IMG_XYZ.webp"
@@ -79,6 +82,7 @@ permalink: /research/
 </div>
 <div style="clear: both;"></div>
 
+
 <div>
   <img
     src="/IMG_1922.webp"
@@ -93,6 +97,7 @@ permalink: /research/
   </p>
 </div>
 <div style="clear: both;"></div>
+
 
 <h2 style="margin-top: 1rem; margin-bottom: 0.7rem; clear: both;">Collaborations</h2>
 
