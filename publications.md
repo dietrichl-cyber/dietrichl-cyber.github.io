@@ -2,7 +2,6 @@
 layout: default
 title: "Publications"
 ---
-(page under construction)
 
 # Publications
 
@@ -66,4 +65,4 @@ title: "Publications"
 
 ## Conference contributions
 
-- ...
+- yet to be compiled.
