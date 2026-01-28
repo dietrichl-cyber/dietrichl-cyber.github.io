@@ -43,7 +43,7 @@ permalink: /research/
 
 <div class="project">
   <img
-    src="/project_ecoliteracy.jpg"
+    src="/ecol-icon.webp"
     alt="Ecological Literacy"
     width="220"
   >
