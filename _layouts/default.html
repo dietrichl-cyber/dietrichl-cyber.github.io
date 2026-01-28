@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} – {{ site.title }}</title>
 
-    <!-- Favicon / Tab icon -->
+    <!-- Favicons -->
     <link rel="icon" type="image/png" sizes="32x32"
-          href="{{ '/logo-icon.png?v=' | append: site.github.build_revision | relative_url }}">
+          href="{{ '/favicon-32x32.png?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="icon" type="image/png" sizes="16x16"
+          href="{{ '/favicon-16x16.png?v=' | append: site.github.build_revision | relative_url }}">
+
+    <!-- Fallback: if you only keep one icon file -->
+    <link rel="icon" type="image/png"
           href="{{ '/logo-icon.png?v=' | append: site.github.build_revision | relative_url }}">
+
+    <!-- iOS / Apple -->
     <link rel="apple-touch-icon" sizes="180x180"
-          href="{{ '/logo-icon.png?v=' | append: site.github.build_revision | relative_url }}">
+          href="{{ '/apple-touch-icon.png?v=' | append: site.github.build_revision | relative_url }}">
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
