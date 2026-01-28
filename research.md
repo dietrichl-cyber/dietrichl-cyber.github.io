@@ -77,7 +77,7 @@ permalink: /research/
 
 <div class="project">
   <img
-    src="/IMG_XYZ.webp"
+    src="/ai-icon.webp"
     alt="Student-AI interactions"
     width="220"
   >
