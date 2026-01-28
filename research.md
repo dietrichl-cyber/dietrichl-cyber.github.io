@@ -55,7 +55,7 @@ permalink: /research/
 
 <div class="project">
   <img
-    src="/project_dataliteracy.jpg"
+    src="/datali-icon.webp"
     alt="Data Literacy"
     width="220"
   >
