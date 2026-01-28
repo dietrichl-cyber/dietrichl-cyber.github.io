@@ -67,7 +67,7 @@ permalink: /research/
 
 <div class="project">
   <img
-    src="/project_plantawareness.jpg"
+    src="/sunflowerHey.webp"
     alt="Plant Awareness"
     width="220"
   >
