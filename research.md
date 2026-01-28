@@ -39,8 +39,6 @@ permalink: /research/
   </p>
 </div>
 
-<h2 style="margin-top: 1rem; margin-bottom: 0.7rem; clear: both;">Projects</h2>
-
 <div class="project">
   <img
     src="/ecol-icon.webp"
