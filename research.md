@@ -89,7 +89,7 @@ permalink: /research/
 
 <div class="project">
   <img
-    src="/treeres-icon.webp"
+    src="/treeline-icon.webp"
     alt="Tree growth in cold climates"
     width="220"
   >
