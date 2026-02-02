@@ -40,19 +40,20 @@ title: "Home"
     width="200"
   >
   <p>
-    I am a researcher in science education and plant ecology. My science education work focuses on ecological education, plant awareness and perception, and the use of AI-supported learning environments in higher education teaching. I am especially interested in how ecological phenomena can be understood across levels of organisations - from molecules to ecosystems. Moreover, I embrace all the opportunities that AI brings to teaching and learning while being cautious about potential pitfalls of the technology. In plant ecology, I am interested in plant-environment interactions, especially how cold and drought impact plant physiology. I am fascinated about the global treeline phenomenon which has still not been explained on a mechanistic basis.
+    I am a researcher in science education and plant ecology. In science education, I study ecological learning and competence, data literacy, AI-supported learning environments in biology, and plant awareness and perception. I am particularly interested in how ecological phenomena can be understood across levels of organisation, from molecules to ecosystems, and in how AI can support learning while also posing new challenges. In plant ecology, I investigate plant–environment interactions, especially how cold and drought shape plant physiology. I am especially fascinated by the global treeline phenomenon, whose underlying mechanisms are still not fully understood.
   </p>
 </div>
 
 <div class="section-block">
   <h2>Research interests</h2>
 
-  <ul>
-    <li>Ecology Education and Scientific Literacy</li>
-    <li>Plant Awareness and Perception</li>
-    <li>AI-supported Learning Environments (e.g., chatbots as learning companions)</li>
-    <li>Plant Ecology and Physiology behind the global treeline phenomenon</li>
-  </ul>
+<ul>
+  <li>Ecology Education and Ecological Competence</li>
+  <li>AI-Supported Learning Environments</li>
+  <li>Data Literacy in Biology Education</li>
+  <li>Plant Awareness and Visual Perception</li>
+  <li>Plant–Environment Interactions: Cold and Drought Physiology</li>
+</ul>
 </div>
 
 <div class="section-block">
