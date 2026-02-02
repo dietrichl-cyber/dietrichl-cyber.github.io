@@ -42,12 +42,24 @@ permalink: /research/
 <div class="project">
   <img
     src="/ecol-icon.webp"
-    alt="Ecological Literacy"
+    alt="Ecology Education"
     width="220"
   >
-  <h3>Ecological Literacy</h3>
+  <h3>Ecology Education</h3>
   <p>
-    Climate change, biodiversity loss, and land-use change pose unprecedented challenges to contemporary societies. Addressing these challenges requires a deep and operational understanding of ecological processes and their interactions with society. My research (therefore) focuses on four interrelated questions: What ecological knowledge and concepts do students need in order to competently engage with ecological problems? How do students understand and interpret core ecological concepts, particularly in complex, real-world scenarios? How do values and normative orientations interact with ecological knowledge in shaping students’ reasoning and decision-making? And how can ecological competence be fostered and assessed in order to evaluate the effectiveness of educational interventions?
+    Climate change, biodiversity loss, and land-use change pose unprecedented challenges to contemporary societies. Addressing these challenges requires a deep and operational understanding of ecological processes and their interactions with society. My research therefore focuses on four interrelated questions: What ecological knowledge and concepts do students need in order to competently engage with ecological problems? How do students understand and interpret core ecological concepts, particularly in complex, real-world scenarios? How do values and normative orientations interact with ecological knowledge in shaping students’ reasoning and decision-making? And how can ecological competence be fostered and assessed in order to evaluate the effectiveness of educational interventions?
+  </p>
+</div>
+
+<div class="project">
+  <img
+    src="/ai-icon.webp"
+    alt="Student-AI interactions"
+    width="220"
+  >
+  <h3>Student-AI interactions</h3>
+  <p>
+    I am interested in how students interact with AI and how these interactions shape learning processes and outcomes compared to learning without AI support, with a particular focus on opportunities for biology learning. Together with Paul Martin (JLU Giessen), I explore whether an interactive chatbot can serve as a learning companion for first-semester students in biology and chemistry. In collaboration with Detlef Urhahne at the University of Passau, we additionally examine how students regulate their learning in AI-supported contexts and how this relates to motivation, epictemic beliefs, effort, and achievement.
   </p>
 </div>
 
@@ -57,7 +69,7 @@ permalink: /research/
     alt="Data Literacy"
     width="220"
   >
-  <h3>Data Literacy</h3>
+  <h3>Data</h3>
   <p>
     Together with colleagues from the Universities of Münster and Kassel, we are developing a comprehensive interdisciplinary framework for data literacy in biology and mathematics education. Building on this framework, our overarching goal is to design and empirically test a tool that supports students’ data literacy through AI-generated adaptive feedback. The project uses biological contexts such as health and biodiversity datasets; at Giessen, our focus is on the biodiversity component.
   </p>
@@ -72,18 +84,6 @@ permalink: /research/
   <h3>Plant Awareness</h3>
   <p>
     Trained as a botanist, I am strongly motivated to investigate how people perceive plants, how they engage with them, and how plant life can be made more accessible and meaningful to broader audiences. Plants provide essential benefits for humanity, and meeting global challenges such as food security and sustainable land use requires people who understand how plants function. My research examines visual plant perception in collaboration with Roman Asshoff (Münster), and Daniel Kaiser and Philipp Flieger (both Giessen). In parallel, together with Marcia Eugenio-Gozalbo and Inés Cubrero (both Valladolid), and Rafa Suárez (Salamanca), I investigate educational approaches aimed at increasing plant awareness among students.
-  </p>
-</div>
-
-<div class="project">
-  <img
-    src="/ai-icon.webp"
-    alt="Student-AI interactions"
-    width="220"
-  >
-  <h3>Student-AI interactions</h3>
-  <p>
-    Lorem ipum dolor sit amet....
   </p>
 </div>
 
