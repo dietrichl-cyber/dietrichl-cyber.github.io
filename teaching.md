@@ -8,7 +8,7 @@ I am mainly involved in teaching within the biology education programs at Justus
 
 ## Current teaching
 
-- One Health Teaching CLinic
+- One Health Teaching Clinic
 - Scientific Practice and Research Methods in Biology Education
 - Basics of Biology Education
 - Digital and Instructional Media in Biology Education
