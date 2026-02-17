@@ -35,7 +35,7 @@ title: "Home"
 
 <div class="section-block">
   <img
-    src="/IMG_1922.webp"
+    src="/Lars.webp"
     alt="Lars Dietrich"
     width="200"
   >
