@@ -25,13 +25,7 @@ University of Basel, Switzerland (2013 – 2014)
 **B.Sc. in Biology & Chemistry**  
 University of Muenster, Germany (2009 - 2013)
 
-## Appointments
-
-**Postdoctoral Researcher (Akademischer Rat)**  
-Institute for Biology Education<br>
-Department of Biology and Chemistry<br>
-Justus Liebig University Giessen (Germany)<br> 
-(04/2025–present)
+## Former Appointments
 
 **Postdoctoral Researcher (on part-time basis, 4 h/w)**  
 Institute for Crop Science and Resource Conservation<br>
@@ -71,6 +65,12 @@ University of Basel (Switzerland)<br>
 - Plant Microscopic Anatomy (University of Basel; University of Muenster)
 - Plant Biodiversity (University of Basel; University of Muenster)
 - Numerous High School classes in Biology and Chemistry
+
+## Further qualifications
+- Certificate in Funding Aqcuisition from the Graduate Center of Scoial, Economic and Law Sciences (Justus Liebig University Giessen)
+  (running)
+- Certificate in Business Management and Business Administration (Fernuniversität Hagen)
+  07/2018
 
 ## Talks & Conference Contributions
 ... yet to be compiled ...
