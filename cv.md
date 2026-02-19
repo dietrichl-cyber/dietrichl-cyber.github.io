@@ -2,8 +2,6 @@
 layout: default
 title: "CV"
 ---
-(page under construction)
-
 # Curriculum Vitae
 
 ## Current Position
