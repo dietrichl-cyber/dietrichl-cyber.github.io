@@ -67,8 +67,8 @@ University of Basel (Switzerland)<br>
 - Numerous High School classes in Biology and Chemistry
 
 ## Further qualifications
-- Certificate in Funding Aqcuisition from the Graduate Center of Scoial, Economic and Law Sciences (Justus Liebig University Giessen)
-  (running)
+- Certificate in Third-Party Funding Aqcuisition (Graduate Center of Scoial, Economic and Law Sciences, Justus Liebig University Giessen)
+  (ongoing)
 - Certificate in Business Management and Business Administration (Fernuniversität Hagen)
   07/2018
 
