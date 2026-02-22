@@ -40,7 +40,8 @@ title: "Home"
     width="200"
   >
   <p>
-    I am a researcher in science education and plant ecology. In science education, I study ecological learning and competence, data literacy, AI-supported learning environments in biology, and plant awareness and perception. I am particularly interested in how ecological phenomena can be understood across levels of organisation, from molecules to ecosystems, and in how AI can support learning while also posing new challenges. In plant ecology, I investigate plant–environment interactions, especially how cold and drought shape plant physiology. I am especially fascinated by the global treeline phenomenon, whose underlying mechanisms are still not fully understood.
+    I am a researcher in science education, focusing on biology and ecology. My work investigates how people develop scientific ecological understanding, what shapes ecological reasoning, and how ecological competence can be supported in learning and teaching. I study how learners make sense of ecological phenomena across levels of organisation — from molecules and organisms to populations, communities, and ecosystems — and how plants become visible and meaningful in education. I also examine the role of authentic datasets and AI-supported learning environments in biology education, asking how they influence learners’ reasoning and interpretation.
+In addition, I conduct research in plant ecology on plant–environment interactions, especially how cold and drought shape plant physiology. This ecological research provides authentic phenomena and scientific grounding that complements my work in science education.
   </p>
 </div>
 
