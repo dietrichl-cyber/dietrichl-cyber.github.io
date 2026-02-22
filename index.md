@@ -40,8 +40,7 @@ title: "Home"
     width="200"
   >
   <p>
-    I am a researcher in science education, focusing on biology and ecology. My work investigates how people develop scientific ecological understanding, what shapes ecological reasoning, and how ecological competence can be supported in learning and teaching. I study how learners make sense of ecological phenomena across levels of organisation — from molecules and organisms to populations, communities, and ecosystems — and how plants become visible and meaningful in education. I also examine the role of authentic datasets and AI-supported learning environments in biology education, asking how they influence learners’ reasoning and interpretation.
-In addition, I conduct research in plant ecology on plant–environment interactions, especially how cold and drought shape plant physiology. This ecological research provides authentic phenomena and scientific grounding that complements my work in science education.
+    My work aims to strengthen ecology education by understanding how learners build scientific explanations and use them to make sense of the living world. I investigate ecological literacy and, as a particular focus, chemical reasoning in biology — because chemical and biochemical mechanisms are foundational to modern life science and to ecological processes across scales. I study how learners work with authentic datasets and how AI-supported learning environments can shape interpretation, judgement, and reasoning. Plant awareness and perception is one lens I use to examine what becomes salient to learners in biology. Alongside this, I remain active in plant ecology research on plant–environment interactions, especially the physiological effects of cold and drought.
   </p>
 </div>
 
@@ -49,7 +48,7 @@ In addition, I conduct research in plant ecology on plant–environment interact
   <h2>Research interests</h2>
 
 <ul>
-  <li>Ecology Education and Ecological Competence</li>
+  <li>Ecological Literacy and Chemical Reasoning in Ecology</li>
   <li>AI-Supported Learning Environments</li>
   <li>Data Literacy in Biology Education</li>
   <li>Plant Awareness and Visual Perception</li>
