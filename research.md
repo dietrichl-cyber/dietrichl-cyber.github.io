@@ -47,7 +47,7 @@ permalink: /research/
   >
   <h3>Ecology Education</h3>
   <p>
-    Climate change, biodiversity loss, and land-use change pose unprecedented challenges to contemporary societies. Addressing these challenges requires a deep and operational understanding of ecological processes and their interactions with society. My research therefore focuses on four interrelated questions: What ecological knowledge and concepts do students need in order to competently engage with ecological problems? How do students understand and interpret core ecological concepts, particularly in complex, real-world scenarios? How do values and normative orientations interact with ecological knowledge in shaping students’ reasoning and decision-making? And how can ecological competence be fostered and assessed in order to evaluate the effectiveness of educational interventions?
+    Climate change, biodiversity loss, and land-use change confront societies with decisions that require ecological literacy that is both conceptually robust and usable in complex socio-ecological contexts. My research in ecology education investigates how learners construct and apply ecological knowledge, with a particular focus on how they connect explanations across levels of organisation. A central strand examines chemical reasoning in ecological contexts—how students link molecular and biochemical mechanisms to organismal function and ecosystem dynamics. I also study how values and normative orientations interact with ecological knowledge in judgement and decision-making, and how ecological competence can be conceptualised, fostered, and assessed to evaluate the effects of educational interventions.
   </p>
 </div>
 
