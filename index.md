@@ -31,7 +31,7 @@ title: "Home"
   }
 </style>
 
-# Welcome
+# Helping learners explain ecology across scales — from molecules to ecosystems
 
 <div class="section-block">
   <img
