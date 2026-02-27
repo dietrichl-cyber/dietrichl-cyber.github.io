@@ -31,9 +31,11 @@ title: "Home"
   }
 </style>
 
+<p class="hero"><em>Helping learners explain ecology across scales — from molecules to ecosystems.</em></p>
+
+
 # Welcome
 
-<p class="hero"><em>Helping learners explain ecology across scales — from molecules to ecosystems.</em></p>
 
 <div class="section-block">
   <img
@@ -43,7 +45,7 @@ title: "Home"
   >
 
   <p>
-    My work aims to strengthen ecology education by understanding how learners build scientific explanations and use them to make sense of the living world. I investigate ecological literacy and, as a particular focus, chemical reasoning in biology — because chemical and biochemical mechanisms are foundational to modern life science and to ecological processes across scales. I study how learners work with authentic datasets and how AI-supported learning environments can shape interpretation, judgement, and reasoning. Plant awareness and perception is one lens I use to examine what becomes salient to learners in biology. My background in plant ecology provides a scientific grounding for this work and helps me anchor learning research in authentic ecological phenomena. Alongside this, I remain active in plant ecology research on plant–environment interactions, especially the physiological effects of cold and drought.
+    I am a researcher working in the biology education group of Kerstin Kremer at Justus Liebig University Giessen, Germany. My work aims to strengthen ecology education by understanding how learners build scientific explanations and use them to make sense of the living world. I investigate ecological literacy and, as a particular focus, chemical reasoning in biology — because chemical and biochemical mechanisms are foundational to modern life science and to ecological processes across scales. I study how learners work with authentic datasets and how AI-supported learning environments can shape interpretation, judgement, and reasoning. Plant awareness and perception is one lens I use to examine what becomes salient to learners in biology. My background in plant ecology provides a scientific grounding for this work and helps me anchor learning research in authentic ecological phenomena. Alongside this, I remain active in plant ecology research on plant–environment interactions, especially the physiological effects of cold and drought.
   </p>
 </div>
 
