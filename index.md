@@ -28,18 +28,28 @@ title: "Home"
     margin-bottom: 0.7rem;
   }
 
-/* Homepage hero sentence: subtle, clean */
+/* Homepage hero sentence: centered, two lines, forest green */
 .hero{
-  font-size: clamp(1.05rem, 1.4vw, 1.25rem);
-  line-height: 1.5;
-  margin: 0.6rem 0 1.2rem;
+  text-align: center;
+  font-size: clamp(1.15rem, 1.8vw, 1.55rem);
+  line-height: 1.35;
+  margin: 0.9rem auto 1.6rem;
   font-style: italic;
-  font-weight: 400;
-  letter-spacing: 0.1px;
+  font-weight: 500;
+  max-width: 52rem;
+  color: rgba(41, 86, 79, 1); /* from Inkscape: 29564fff */
+}
+
+.hero .sub{
+  display: block;
+  margin-top: 0.25rem;
 }
 </style>
 
-<p class="hero"><em>Helping learners explain ecology across scales — from molecules to ecosystems.</em></p>
+<p class="hero">
+  Helping learners explain ecology across scales
+  <span class="sub">– from molecules to ecosystems</span>
+</p>
 
 
 # Welcome
