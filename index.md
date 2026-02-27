@@ -29,19 +29,16 @@ title: "Home"
   }
 
  /* Homepage hero sentence */
-.hero {
-  font-size: clamp(1.25rem, 2.2vw, 1.75rem);
-  line-height: 1.35;
-  margin: 0.6rem 0 1.4rem;
-  padding: 0.9rem 1.1rem;
-  border-left: 5px solid currentColor;
-  border-radius: 12px;
-  background: rgba(0, 0, 0, 0.04);
-}
+:root { --accent: currentColor; } /* set to a theme color if you have one */
 
-.hero em {
-  font-style: normal;   /* makes it read like a tagline */
-  font-weight: 600;
+.hero{
+  font-size: clamp(1.35rem, 2.4vw, 1.9rem);
+  line-height: 1.3;
+  margin: 0.8rem 0 1.6rem;
+  padding-left: 0.9rem;
+  border-left: 4px solid var(--accent);
+  font-style: italic;
+  font-weight: 500;
 }
 </style>
 
