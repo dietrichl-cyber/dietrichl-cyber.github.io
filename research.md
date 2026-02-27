@@ -57,9 +57,9 @@ permalink: /research/
     alt="Student-AI interactions"
     width="220"
   >
-  <h3>Student-AI interactions</h3>
+  <h3>AI in teaching and learning</h3>
   <p>
-    I am interested in how students interact with AI and how these interactions shape learning processes and outcomes compared to learning without AI support, with a particular focus on opportunities for biology learning. Together with Paul Martin (JLU Giessen), I explore whether an interactive chatbot can serve as a learning companion for first-semester students in biology and chemistry. In collaboration with Detlef Urhahne at the University of Passau, we additionally examine how students regulate their learning in AI-supported contexts and how this relates to motivation, epictemic beliefs, effort, and achievement.
+    I am interested in how students interact with AI and how these interactions shape learning processes and outcomes compared to learning without AI support, with a particular focus on opportunities for biology learning. Together with Paul Martin (JLU Giessen), I explore whether an interactive chatbot can serve as a learning companion for first-semester students in biology and chemistry. In collaboration with Detlef Urhahne at the University of Passau, we additionally examine how students regulate their learning in AI-supported contexts and how this relates to motivation, epictemic beliefs, effort, and achievement. I am also interested in how teachers integrate AI into their teaching and which competencies are most relevant in this context.
   </p>
 </div>
 
