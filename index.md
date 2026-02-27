@@ -28,17 +28,14 @@ title: "Home"
     margin-bottom: 0.7rem;
   }
 
- /* Homepage hero sentence */
-:root { --accent: currentColor; } /* set to a theme color if you have one */
-
+/* Homepage hero sentence: subtle, clean */
 .hero{
-  font-size: clamp(1.35rem, 2.4vw, 1.9rem);
-  line-height: 1.3;
-  margin: 0.8rem 0 1.6rem;
-  padding-left: 0.9rem;
-  border-left: 4px solid var(--accent);
+  font-size: clamp(1.05rem, 1.4vw, 1.25rem);
+  line-height: 1.5;
+  margin: 0.6rem 0 1.2rem;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
+  letter-spacing: 0.1px;
 }
 </style>
 
