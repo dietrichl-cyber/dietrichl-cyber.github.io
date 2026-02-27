@@ -19,15 +19,30 @@ title: "Home"
     height: auto;
   }
 
-  /* Optional: avoid extra bottom whitespace within a block */
   .section-block p:last-child {
     margin-bottom: 0;
   }
 
-  /* Optional: a tiny bit more air above headings */
   h2 {
     margin-top: 0.2rem;
     margin-bottom: 0.7rem;
+  }
+
+  /* NEW: homepage hero line */
+  .hero {
+    font-size: clamp(1.25rem, 2.2vw, 1.75rem);
+    line-height: 1.35;
+    margin: 0.6rem 0 1.4rem;
+    padding: 0.9rem 1.1rem;
+    border-left: 5px solid currentColor;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.04);
+  }
+
+  .hero em {
+    font-style: normal;     /* makes it look more like a tagline */
+    font-weight: 600;
+    letter-spacing: 0.2px;
   }
 </style>
 
