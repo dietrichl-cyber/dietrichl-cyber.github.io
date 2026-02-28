@@ -12,7 +12,7 @@ I am mainly involved in teaching within the biology education programs at Justus
 - Scientific Practice and Research Methods in Biology Education
 - Basics of Biology Education
 - Digital and Instructional Media in Biology Education
-- Summer School on Alpine Plant Ecology at the Alpine Research Station "AlPFOR" (Switzerland)
+- Summer School on Alpine Plant Ecology at the Alpine Research Station "ALPFOR" (Switzerland)
 
 ## Supervision
 
