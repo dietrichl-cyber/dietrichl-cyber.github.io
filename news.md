@@ -37,7 +37,7 @@ permalink: /news/
   <img
     src="/PaulLars.webp"
     alt="AI in teaching and learning"
-    width="250"
+    width="200"
   >
 
   <h3><span class="news-date">Dec 2025</span>: New project funding on AI in teaching and learning</h3>
