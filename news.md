@@ -35,7 +35,7 @@ permalink: /news/
 
 <div class="news-item">
   <img
-    src="/PaulLars.webp"
+    src="/HessenHub.webp"
     alt="AI in teaching and learning"
     width="200"
   >
