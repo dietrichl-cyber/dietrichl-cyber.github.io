@@ -35,7 +35,7 @@ permalink: /news/
 
 <div class="news-item">
   <img
-    src="/ai-icon.webp"
+    src="/PaulLars.webp"
     alt="AI in teaching and learning"
     width="220"
   >
@@ -43,6 +43,6 @@ permalink: /news/
   <h3><span class="news-date">Dec 2025</span>: New project funding on AI in teaching and learning</h3>
 
   <p>
-    Together with Paul Martin (Chemistry Education), I have received funding from the Hessen Hub for a collaborative project on the use of generative AI chatbots in first-semester university teaching. In this project, we will develop AI chatbots that help students structure and understand key concepts from introductory lectures and seminars in biology and chemistry. Our goal is to support learning early on, reduce the number of students who fail exams on their first attempt, and help lower performance anxiety and dropout rates. We are collaborating with the university’s computing centre (Rechenzentrum) to integrate the chatbots and the required infrastructure (e.g., retrieval-augmented generation, RAG) into the ILIAS learning management system.
+    Together with Paul Martin (Chemistry Education), I have received funding from the Hessen Hub for a collaborative project on the use of generative AI chatbots in first-semester university teaching. In this project, we will develop AI chatbots that help students structure and understand key concepts from introductory lectures and seminars in biology and chemistry. Our goal is to support learning early on, reduce the number of students who fail exams on their first attempt, and help lower performance anxiety and dropout rates. We are collaborating with the university’s computing centre (Rechenzentrum) to integrate the chatbots and the required infrastructure (e.g., retrieval-augmented generation, RAG) into the ILIAS learning management system. We are very excited to see the outcomes of this project..!
   </p>
 </div>
