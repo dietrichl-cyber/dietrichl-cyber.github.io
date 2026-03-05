@@ -59,7 +59,7 @@ title: "Home"
   <img
     src="/Lars.webp"
     alt="Lars Dietrich"
-    width="200"
+    width="250"
   >
 
   <p>
