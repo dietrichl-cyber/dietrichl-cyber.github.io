@@ -72,10 +72,10 @@ title: "Home"
 
 <ul>
   <li>Ecological Literacy and Chemical Reasoning in Ecology</li>
-  <li>AI in Teaching and Learning Biology</li>
-  <li>Data Literacy in Biology Education</li>
+  <li>AI in Teaching and Learning Biology/Ecology</li>
+  <li>Data Literacy in Biodiversity Contexts</li>
   <li>Plant Awareness and Visual Perception</li>
-  <li>Plant–Environment Interactions: Cold and Drought Physiology</li>
+  <li>Plant Ecology</li>
 </ul>
 </div>
 
