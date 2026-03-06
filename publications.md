@@ -66,6 +66,6 @@ permalink: /publications/
 - **FWU (Institute for Movie and Picture in Science and Teaching) (var. years).** Various explanatory short movies for biology teaching, a.o. "Traits of Life", "Competition", "Freshwater Lake Ecosystems", "Animals of the Alpine", "Carnivorous Plants".
 
 
-## Conference contributions
+## Posters & Presentations
 
 - yet to be compiled.
