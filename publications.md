@@ -6,6 +6,8 @@ permalink: /publications/
 
 # Publications
 
+***Please note that I do not provide titles or pre-prints of manuscripts before they have officially passed peer review and are finally accepted by the publisher.***
+
 ## Journal articles
 
 - **Urhahne D, Kehle L, Dietrich L, Kremer K (2026).** The Role of Epistemic Beliefs in Predicting ChatGPT Adoption and Avoidance in Higher Education. *Acta Psychologica*. DOI: [10.1016/j.actpsy.2026.106334](https://doi.org/10.1016/j.actpsy.2026.106334)
