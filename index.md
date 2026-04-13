@@ -47,8 +47,8 @@ title: "Home"
 </style>
 
 <p class="hero">
-  Helping learners explain ecology across scales
-  <span class="sub">– from molecules to ecosystems</span>
+  How people perceive and understand ecology across scales
+  <span class="sub">— and how this relates to environmental beliefs</span>
 </p>
 
 
