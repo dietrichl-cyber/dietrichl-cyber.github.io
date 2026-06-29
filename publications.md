@@ -53,6 +53,8 @@ permalink: /publications/
 
 ## Contributions and teaching materials
 
+- **Behrend A, Büchter T, Dietrich L, Eichler A, Göddenhenrich T, Heuckmann B, Koulani H, Kremer K, Mehl S, Söllner M (2026)** DUDa – Digital, adaptive support for generic and discipline-related data literacy. *Proceedings ICOTS 12*.
+
 - **Dietrich L, Hammann M, Kremer K, Asshoff R (2026).** Die Ökologie braucht das Basiskonzept System zurück. *MNU Journal*, 79(2), 162-168.
 
 - **Dietrich L, Dankbar J, Asshoff R (2025).** Abitur und Klausur: Trophische Kaskade im Yellowstone Nationalpark. *Unterricht Biologie*, 505, 45–47.
