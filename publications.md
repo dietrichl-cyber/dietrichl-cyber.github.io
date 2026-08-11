@@ -10,6 +10,8 @@ permalink: /publications/
 
 ## Journal articles
 
+- **Dietrich L (in press).** Keeping humans at the heart of sustainability. *Sustainability Science*
+
 - **Dietrich L, Zeidler M (2026).** A potential role for DELLA signaling in global treeline formation. *New Phytologist*, 251, 2337-2343. DOI: [https://doi.org/10.1111/nph.71385](https://doi.org/10.1111/nph.71385)
 
 - **Urhahne D, Kehle L, Dietrich L, Kremer K (2026).** The Role of Epistemic Beliefs in Predicting ChatGPT Adoption and Avoidance in Higher Education. *Acta Psychologica*, 263, 106334. DOI: [10.1016/j.actpsy.2026.106334](https://doi.org/10.1016/j.actpsy.2026.106334)
