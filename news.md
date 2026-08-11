@@ -35,6 +35,20 @@ permalink: /news/
 
 <div class="news-item">
   <img
+    src="/Furka.webp"
+    alt="Summer School on Alpine Plant Ecology at the Furka Pass"
+    width="200"
+  >
+
+  <h3><span class="news-date">Jul 2026</span>: Summer School on Alpine Plant Ecology at the Furka Pass</h3>
+
+  <p>
+From 12 to 18 July, the annual Summer School on Alpine Plant Ecology once again took place at the Furka Pass in the Swiss Alps. Together with Christian Körner and Erika Hiltbrunner (University of Basel) and Martin Gruber (University of Graz), I had the pleasure of introducing 25 international students to alpine plant ecology during an intensive week at 2,500 m above sea level. The atmosphere was focused and enthusiastic, while the mountain weather was, as always, rather changeable—although I cannot remember ever experiencing such warm conditions up there. It was an intense and rewarding week, culminating in the students successfully completing and presenting their own projects. A huge thank you goes to Erika Hiltbrunner and the ALPFOR station for organizing and hosting this unique course. It remains a special experience every year—and one from which I continue to learn a great deal myself.
+  </p>
+</div>
+
+<div class="news-item">
+  <img
     src="/HessenHub.webp"
     alt="AI in teaching and learning"
     width="200"
