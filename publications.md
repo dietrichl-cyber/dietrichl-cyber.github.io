@@ -10,7 +10,7 @@ permalink: /publications/
 
 ## Journal articles
 
-- **Dietrich L (in press).** Keeping humans at the heart of sustainability. *Sustainability Science*
+- **Dietrich L (in press).** Keeping Humans at the Heart of Sustainability. *Sustainability Science*
 
 - **Dietrich L, Zeidler M (2026).** A potential role for DELLA signaling in global treeline formation. *New Phytologist*, 251, 2337-2343. DOI: [https://doi.org/10.1111/nph.71385](https://doi.org/10.1111/nph.71385)
 
