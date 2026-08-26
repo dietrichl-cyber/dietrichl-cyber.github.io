@@ -14,7 +14,7 @@ permalink: /publications/
 
 - **Dietrich L (in press).** Keeping Humans at the Heart of Sustainability. *Sustainability Science*
 
-- **Kurschildgen S, Dietrich L, Büssing A, Schwarzer S, Kremer K (in press).** Analyzing Preservice Biology Teachers' Nature-of-Science Reflection Skills in a 360° Lab Environment. *Science & Education*
+- **Kurschildgen S, Dietrich L, Büssing A, Schwarzer S, Kremer K (2026).** Analyzing Preservice Biology Teachers' Nature-of-Science Reflection Skills in a 360° Lab Environment. *Science & Education* DOI: [10.1007/s11191-026-00778-w](https://doi.org/10.1007/s11191-026-00778-w)
 
 - **Dietrich L, Zeidler M (2026).** A potential role for DELLA signaling in global treeline formation. *New Phytologist*, 251, 2337-2343. DOI: [10.1111/nph.71385](https://doi.org/10.1111/nph.71385)
 
