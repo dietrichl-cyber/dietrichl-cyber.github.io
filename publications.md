@@ -6,7 +6,7 @@ permalink: /publications/
 
 # Publications
 
-*Please note that I do not provide manuscripts before they have finally been accepted by the publisher.*
+*Please note that I do not provide manuscripts before they have finally passed peer review and are officially accepted by the publisher.*
 
 ## Journal articles
 
