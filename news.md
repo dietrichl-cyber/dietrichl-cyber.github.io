@@ -34,6 +34,16 @@ permalink: /news/
 # News
 
 <div class="news-item">
+
+  <img src="/ERIDOB.webp" alt="ERIDOB Conference 2026 in Ljubljana" width="200">
+
+  <h3><span class="news-date">Aug 2026</span>: ERIDOB Conference in Ljubljana</h3>
+
+  <p>In August, our PhD student Stella Mehl and I attended the ERIDOB Conference in Ljubljana, Slovenia. Stella presented a poster on her PhD project, in which she investigates how students’ data literacy can be fostered using a large and authentic dataset on insect decline from the well-known Krefeld study. Her work is part of the <a href="https://digi-ebf.de/duda">DUDa project</a>, in which we collaborate with colleagues from several German universities on the use of authentic scientific datasets in biology education. Tim Göddenhenrich from the University of Münster, who is also part of DUDa, presented first findings from his work on the use of a health dataset in the classroom. I contributed two posters focusing on ecological literacy and plant awareness and was also involved in a presentation by Marcia Eugenio-Gozalbo from the University of Valladolid. Marcia presented our collaborative work on <em>Miniature Landscapes</em>, an interdisciplinary approach combining biodiversity education and art. Beyond our own contributions, ERIDOB was a great opportunity to meet many colleagues from across Europe, catch up with familiar faces, and have inspiring conversations about ongoing and future research. Several of these discussions have already sparked ideas for new collaborations. With its welcoming atmosphere, a highly interesting scientific program, and the beautiful city of Ljubljana as its setting, the conference was both productive and thoroughly enjoyable.</p>
+
+</div>
+
+<div class="news-item">
   <img
     src="/Furka.webp"
     alt="Summer School on Alpine Plant Ecology at the Furka Pass"
