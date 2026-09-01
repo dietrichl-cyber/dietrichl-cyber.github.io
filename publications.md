@@ -12,7 +12,7 @@ permalink: /publications/
 
 - **Kehl L, Willis FM, Dietrich L (in press).** The Brocken tree limit: treeline, summit syndrome or forest advance? *Plant Ecology*
 
-- **Dietrich L (in press).** Keeping Humans at the Heart of Sustainability. *Sustainability Science* DOI: [10.1007/s11625-026-01886-w](https://doi.org/10.1007/s11625-026-01886-w)
+- **Dietrich L (2026).** Keeping Humans at the Heart of Sustainability. *Sustainability Science* DOI: [10.1007/s11625-026-01886-w](https://doi.org/10.1007/s11625-026-01886-w)
 
 - **Kurschildgen S, Dietrich L, Büssing A, Schwarzer S, Kremer K (2026).** Analyzing Preservice Biology Teachers' Nature-of-Science Reflection Skills in a 360° Lab Environment. *Science & Education* DOI: [10.1007/s11191-026-00778-w](https://doi.org/10.1007/s11191-026-00778-w)
 
