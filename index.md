@@ -75,7 +75,7 @@ title: "Home"
   <li>AI in Teaching and Learning Biology/Ecology</li>
   <li>Data Literacy in Biodiversity Contexts</li>
   <li>Plant Awareness and Visual Perception</li>
-  <li>Plant Ecology</li>
+  <li>Plant Physiological Ecology</li>
 </ul>
 </div>
 
