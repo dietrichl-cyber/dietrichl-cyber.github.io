@@ -33,8 +33,8 @@ permalink: /research/
 
 <div>
   <p>
-    I am working on research projects in the areas of biology education and plant ecology and the combination of the two.
-    I am especially interested in how an effective education on ecology can help students understand the complex and
+    I am working on research projects in the areas of biology education and plant physiological ecology and the combination of the two.
+    I am especially interested in how an effective education on physiology and ecology can help students understand the complex and
     emergent processes of ecosystems.
   </p>
 </div>
@@ -47,7 +47,7 @@ permalink: /research/
   >
   <h3>Ecology Education</h3>
   <p>
-    Climate change, biodiversity loss, and land-use change confront societies with decisions that require ecological literacy that is both conceptually robust and usable in complex socio-ecological contexts. My research in ecology education investigates how learners construct and apply ecological knowledge, with a particular focus on how they connect explanations across levels of organisation. A central strand examines chemical reasoning in ecological contexts—how students link molecular and biochemical mechanisms to organismal function and ecosystem dynamics. I also study how values and normative orientations interact with ecological knowledge in judgement and decision-making, and how ecological competence can be conceptualised, fostered, and assessed to evaluate the effects of educational interventions.
+    Climate change, biodiversity loss, and land-use change confront societies with decisions that require ecological literacy that is both conceptually robust and usable in complex socio-ecological contexts. My research in ecology education investigates how learners construct and apply ecological knowledge, with a particular focus on how they connect explanations across levels of organisation. A central strand examines mechanistic chemical reasoning in ecological contexts—how students link molecular and biochemical mechanisms to organismal function and ecosystem dynamics. I also study how values and normative orientations interact with ecological knowledge in judgement and decision-making, and how ecological competence can be conceptualised, fostered, and assessed to evaluate the effects of educational interventions.
   </p>
 </div>
 
@@ -83,7 +83,7 @@ permalink: /research/
   >
   <h3>Plant Awareness</h3>
   <p>
-    Trained as a botanist, I am strongly motivated to investigate how people perceive plants, how they engage with them, and how plant life can be made more accessible and meaningful to broader audiences. Plants provide essential benefits for humanity, and meeting global challenges such as food security and sustainable land use requires people who understand how plants function. My research examines visual plant perception in collaboration with Roman Asshoff (Münster), and Daniel Kaiser and Philipp Flieger (both Giessen). In parallel, together with Marcia Eugenio-Gozalbo and Inés Cubrero (both Valladolid), and Rafa Suárez (Salamanca), I investigate educational approaches aimed at increasing plant awareness among students.
+    Trained as a plant scientist, I am strongly motivated to investigate how people perceive plants, how they engage with them, and how plant life can be made more accessible and meaningful to broader audiences. Plants provide essential benefits for humanity, and meeting global challenges such as food security and sustainable land use requires people who understand how plants function. My research examines visual plant perception in collaboration with Roman Asshoff (Münster), and Daniel Kaiser and Philipp Flieger (both Giessen). In parallel, together with Marcia Eugenio-Gozalbo and Inés Cubrero (both Valladolid), and Rafa Suárez (Salamanca), I investigate educational approaches aimed at increasing plant awareness among students.
   </p>
 </div>
 
