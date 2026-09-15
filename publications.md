@@ -10,7 +10,7 @@ permalink: /publications/
 
 ## Journal articles
 
-- **Kehl L, Willis FM, Dietrich L (in press).** The Brocken tree limit: treeline, summit syndrome or forest advance? *Plant Ecology*
+- **Kehl L, Willis FM, Dietrich L (in press).** The Brocken tree limit: treeline, summit syndrome or forest advance? *Plant Ecology*, 227, 107. DOI: [10.1007/s11258-026-01677-4](https://doi.org/10.1007/s11258-026-01677-4)
 
 - **Dietrich L (2026).** Keeping Humans at the Heart of Sustainability. *Sustainability Science* DOI: [10.1007/s11625-026-01886-w](https://doi.org/10.1007/s11625-026-01886-w)
 
