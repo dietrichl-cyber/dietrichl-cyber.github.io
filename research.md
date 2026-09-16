@@ -95,7 +95,7 @@ permalink: /research/
   >
   <h3>Tree growth in cold climates</h3>
   <p>
-    Globally, tree growth declines abruptly at a growing-season mean temperature of approximately 6 °C, giving rise to arctic and alpine treelines. This threshold marks the functional limit of the tree growth form. Despite its global consistency, the physiological mechanisms underlying this sharp cessation of growth remain unresolved. My research therefore aims to identify the physiological processes that prevent trees from growing beyond this temperature limit. This work is conducted in collaboration with Mathias Zeidler (Giessen) and Christian Körner (Basel).
+    Globally, tree growth declines abruptly at a growing-season mean temperature of approximately 6°C, giving rise to arctic and alpine treelines. This threshold marks not only the functional limit of the tree growth form but seems to be connected to growth decrease in plants in general. Despite its global consistency, the physiological mechanisms underlying this sharp cessation of plant growth under cold remain unresolved. My research therefore aims to identify the physiological processes that prevent plants from growing significantly beyond this temperature limit. This work is conducted in collaboration with Mathias Zeidler (Giessen) and Christian Körner (Basel).
   </p>
 </div>
 
@@ -104,9 +104,9 @@ permalink: /research/
 - Dr. Roman Asshoff (Ecological Literacy / Plant Awareness; University of Münster)
 - Prof. Detlef Urhahne (ChatGPT Use of Students; University of Passau)
 - Dr. Paul Martin (Student-AI interactions in University teaching; Justus Liebig University Gießen)
-- Prof. Camilo Chiang & Dr. Rafael Suárez (Cross-discipline reasoning; Universidad de Salamanca)
+- Prof. Camilo Ruiz Méndez & Group (Climate Change Education; Universidad de Salamanca)
 - Prof. Marcia Eugenio-Gozalbo & Prof. Inés Cubrero (Plant Awareness; Universidad de Valladolid)
 - Prof. Dr. Benedikt Heuckmann (Data Literacy in Biology Education; University of Muenster)
 - Prof. Daniel Kaiser & Philipp Flieger (Plant Awareness; Justus Liebig University Giessen)
-- Prof. Mathias Zeidler (Tree growth in cold climates; Justus Liebig University Giessen)
+- Prof. Mathias Zeidler (Plant growth in cold climates; Justus Liebig University Giessen)
 - Prof. Christian Körner (Tree growth in cold climates / Alpine Plant Ecology; University of Basel)
