@@ -34,6 +34,13 @@ permalink: /news/
 # News
 
 <div class="news-item">
+  <img src="/Salamanca.webp" alt="Research stay at the University of Salamanca" width="200">
+  <h3><span class="news-date">Sep 2026</span>: Research stay at the University of Salamanca</h3>
+  <p>From early September to early October, I am spending a month at the University of Salamanca, supported by Erasmus+. I am visiting Camilo Ruiz Méndez and the <a href="https://educacioncambioclimatico.usal.es/">EMC³ research group</a>, whose work focuses, among other topics, on climate change education. During my stay, I am getting to know their approaches to research and teaching in this field and am involved in <em>Climate Stories</em>, a project exploring how a DIY storytelling approach can support climate change education. Beyond our joint work, it is a wonderful opportunity to exchange ideas, develop new perspectives, and experience academic life at one of Europe’s oldest universities. I am trying to absorb as many new ideas, experiences, and impressions as possible — both at the university and in the beautiful city of Salamanca.</p>
+</div>
+
+
+<div class="news-item">
   <img src="/ERIDOB.webp" alt="ERIDOB Conference 2026 in Ljubljana" width="200">
   <h3><span class="news-date">Aug 2026</span>: ERIDOB Conference in Ljubljana</h3>
   <p>In August, our PhD student Stella Mehl and I attended the ERIDOB Conference in beautiful Ljubljana, Slovenia. Stella presented a poster on her PhD project on fostering data literacy using authentic data on insect decline from the Krefeld study. I contributed two posters on ecological literacy and plant awareness and was happy to see further collaborative work represented at the conference: Marcia Eugenio-Gozalbo from the University of Valladolid presented findings from the <em>Miniature Landscapes</em> project, combining biodiversity education and art, in which I was previously involved. Tim Göddenhenrich from the University of Münster, a colleague from our <a href="https://digi-ebf.de/duda">DUDa project</a>, also presented first findings from his work with health data in the classroom. Beyond the scientific program, it was great to meet so many colleagues from across Europe, have inspiring conversations, and develop ideas for future collaborations. Altogether, it was a very enjoyable and stimulating conference. And Ljubljana provided a wonderful setting!</p>
