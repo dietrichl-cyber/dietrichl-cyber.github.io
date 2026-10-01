@@ -6,10 +6,12 @@ permalink: /ai-use/
 
 # A note on my use of AI
 
-I use generative AI in my academic work, and I want to be open about how. Mostly, it is a tool for writing and thinking: to sharpen language, try out formulations, or test an argument by having it challenged. I particularly value this kind of language support as a non-native English speaker. Academic publishing happens largely in English, and I have spent considerable effort on language that native speakers do not have to invest in the same way. AI can reduce part of that disadvantage. It helps me say what I mean, not decide what I mean.
+I use generative AI in my academic work, mainly when revising my own texts. Once I know what I want to say, it helps me say it more fluently: it suggests wording, smooths out sentences and lets me spend less time on language and more on content. Occasionally, I also use it to test whether an argument holds up.
 
-AI is also a subject of my research. Studying how learners engage with tools like ChatGPT has shown me that they can make thinking more productive, but also create an impression of understanding where there is none. I try to hold myself to the standard I would want my students to meet.
+I see no reason to do without this help just because I could manage without it. I don't think scientists should be judged by how elegantly they write. A text that reads well is easier to follow, but what makes research good is the work behind it: the questions, the reading, the data, and whether the conclusions are sound.
 
-Scientific judgement stays with me. The questions I pursue, the positions I take, and the conclusions I draw are ones I need to understand and defend myself. Engaging with the scientific literature and deciding what to make of it is part of that judgement, not something I want to outsource. Manuscripts shared with me in confidence for review stay out of AI tools.
+This is also where AI reaches its limits. It can make a sentence smoother, but it cannot decide what the sentence should claim, and it is not always precise where precision matters most. So the judgement remains mine. I read the literature I cite myself, I am able to explain and defend what I publish, and I take responsibility for what appears under my name.
 
-I follow the relevant policies, which are still evolving, as is my own practice. What appears under my name is my responsibility.
+There is one part of my work where I do not use AI at all: peer review. Manuscripts under review are confidential, and they stay out of AI tools.
+
+Within these limits, I consider AI a useful tool for my writing.
