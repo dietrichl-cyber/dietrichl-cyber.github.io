@@ -6,10 +6,12 @@ permalink: /ai-use/
 
 # A note on my use of AI
 
-I use generative AI in my academic work, mostly for language and writing. It helps me improve readability, make things clearer or more concise, and find better formulations. For most of my work, I see this as a form of advanced language editing. Sometimes I also use AI to challenge an argument or look at something from a different angle.
+I use generative AI in my academic work, and I want to be open about how. Mostly, it is a tool for writing and thinking: to sharpen language, try out formulations, or test an argument by having it challenged. In the lab and in my analyses, I don't rely on it.
 
-What I do not use AI for is to do the scientific thinking for me. I develop my ideas and arguments myself. The reasoning, interpretations, and conclusions in my work are those of myself and my co-authors, not of an AI system. I read the scientific literature myself, check sources and factual claims, and remain responsible for what I publish.
+There is also a matter of fairness. Academic publishing happens largely in English, and as a non-native speaker I have spent considerable effort on language that native speakers don't have to invest. AI reduces part of that disadvantage. It helps me say what I mean, not decide what I mean.
 
-As a non-native English speaker, I find AI particularly useful for scientific writing. To me, a paper is first and foremost a way to communicate and discuss science, not a literary exercise. Clear writing matters, but linguistic elegance should not be confused with scientific quality. AI can help reduce this language barrier and make good language support available to more researchers. At the same time, better language should not be used to hide unclear thinking. I need to understand and critically assess what AI produces, and I would not use a formulation that I could not explain or defend myself.
+AI is also a subject of my research. Studying how learners engage with tools like ChatGPT has shown me that they can make thinking more productive, but also create an impression of understanding where there is none. I try to hold myself to the standard I would want my students to meet.
 
-For me, AI is a useful tool, not an alter ego and not a substitute for scientific thinking, judgement, or authorship. I use it in accordance with applicable guidelines.
+What I do not hand over is scientific judgement. The questions I pursue, the positions I take and the conclusions I draw are ones I need to understand and defend myself. That starts with the literature: I read the work I cite myself, rather than relying on AI summaries or merely checking whether a source says what a tool claims it does. And I don't use AI when reviewing manuscripts shared with me in confidence.
+
+I follow the relevant policies, which are still evolving, as is my own practice. What appears under my name is my responsibility.
