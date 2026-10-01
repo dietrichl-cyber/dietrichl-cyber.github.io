@@ -12,4 +12,4 @@ What I do not use AI for is to do the scientific thinking for me. I develop my i
 
 As a non-native English speaker, I find AI particularly useful for scientific writing. To me, a paper is first and foremost a way to communicate and discuss science, not a literary exercise. Clear writing matters, but linguistic elegance should not be confused with scientific quality. AI can help reduce this language barrier and make good language support available to more researchers. Of course, this still requires me to understand and critically assess the English it produces. Otherwise I could not judge whether it actually says what I mean.
 
-For me, AI is a useful tool, not an alter ego and not a substitute for scientific thinking, judgement, or authorship. I am also aware that using generative AI has an environmental cost, which is another reason for me to use it deliberately rather than unnecessarily. I use it in accordance with applicable guidelines.
+For me, AI is a useful tool, not an alter ego and not a substitute for scientific thinking, judgement, or authorship. I use it in accordance with applicable guidelines.
