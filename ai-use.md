@@ -6,8 +6,10 @@ permalink: /ai-use/
 
 # A note on my use of AI
 
-I use generative AI in my academic work, mostly as a tool for writing and thinking. It helps me improve language, make things clearer or more concise, explore different formulations, and sometimes challenge an argument I am working on.
+I use generative AI in my academic work, mostly for language and writing. It helps me improve readability, make things clearer or more concise, and find better formulations. Sometimes I also use it to challenge an argument or look at something from a different angle.
 
-I do not see this as outsourcing the scientific work. The ideas and arguments I publish are ones I need to understand, stand behind, and be able to defend. I check sources and factual claims myself, and I remain responsible for what appears under my name.
+What I do not use AI for is to do the scientific thinking for me. I develop my ideas and arguments myself. The reasoning, interpretations, and conclusions in my work are those of myself and my co-authors, not of an AI system. I read the scientific literature myself, check sources and factual claims, and remain responsible for what I publish.
 
-AI has become a useful part of how I work, but not a substitute for scientific judgement or authorship. I use it within the rules of the journals, publishers, and institutions I work with.
+As a non-native English speaker, I find AI particularly useful for scientific writing. To me, a paper is first and foremost a way to communicate and discuss science, not a literary exercise. Clear writing matters, but linguistic elegance should not be confused with scientific quality. I like that AI can help reduce the language barrier and make good writing support available to researchers regardless of how good their academic English is.
+
+For me, AI is a useful tool, not an alter ego and not a substitute for scientific thinking, judgement, or authorship. I use it in accordance with applicable guidelines.
