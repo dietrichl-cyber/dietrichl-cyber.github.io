@@ -34,6 +34,12 @@ permalink: /news/
 # News
 
 <div class="news-item">
+  <img src="/Salamanca2.webp" alt="Research stay in Salamanca continued" width="200">
+  <h3><span class="news-date">Oct 2026</span>: Salamanca – Part II</h3>
+  <p>The second half of my research stay in Salamanca brought several more memorable experiences. Together with the EMC³ research group, I took part in the European Researchers’ Night, where we hosted a stand on climate change education. One particular highlight was our infrared camera, which makes thermal radiation visible and quickly became a favourite with visitors of all ages. I also had the opportunity to give a talk at the Facultad de Educación, presenting two current strands of my research: how students interact with ChatGPT and how people evaluate scientific claims. On 2 October, my time in Salamanca came to an end. I am very grateful to Camilo Ruiz Méndez and the whole group for such a warm welcome and for a month full of conversations, new ideas, and experiences. I am leaving Salamanca with a lot to take home with me — both scientifically and personally.</p>
+</div>
+
+<div class="news-item">
   <img src="/Salamanca.webp" alt="Research stay at the University of Salamanca" width="200">
   <h3><span class="news-date">Sep 2026</span>: Research stay at the University of Salamanca</h3>
   <p>From early September to early October, I am spending a month at the University of Salamanca, supported by Erasmus+. I am visiting Camilo Ruiz Méndez and the <a href="https://educacioncambioclimatico.usal.es/">EMC³ research group</a>, whose work focuses, among other topics, on climate change education. During my stay, I am getting to know their approaches to research and teaching in this field and am involved in <em>Climate Stories</em>, a project exploring how a DIY storytelling approach can support climate change education. Beyond our joint work, it is a wonderful opportunity to exchange ideas, develop new perspectives, and experience academic life at one of Europe’s oldest universities. I am trying to absorb as many new ideas, experiences, and impressions as possible — both at the university and in the beautiful city of Salamanca.</p>
