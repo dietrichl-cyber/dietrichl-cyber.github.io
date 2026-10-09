@@ -7,7 +7,7 @@ title: "CV"
 ## Current Position
 **Postdoctoral Researcher (Akademischer Rat)**  
 Institute for Biology Education<br>
-Department of Biology and Chemistry<br>
+Faculty of Biology and Chemistry<br>
 Justus Liebig University Giessen (Germany)<br> 
 (04/2025–present)
 
