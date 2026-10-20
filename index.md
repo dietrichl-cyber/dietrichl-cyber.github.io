@@ -71,10 +71,10 @@ title: "Home"
   <h2>Research interests</h2>
 
 <ul>
-  <li>Ecological Literacy and Mechanistic Reasoning in Ecology</li>
-  <li>AI in Teaching and Learning Biology/Ecology</li>
-  <li>Data Literacy in Biodiversity Contexts</li>
-  <li>Plant Awareness and Visual Perception</li>
+  <li>Ecology Education</li>
+  <li>Plant Education</li> 
+  <li>AI in Teaching and Learning</li>
+  <li>Data Literacy</li>
   <li>Plant Physiological Ecology</li>
 </ul>
 </div>
