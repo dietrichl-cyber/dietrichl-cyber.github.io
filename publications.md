@@ -63,7 +63,7 @@ permalink: /publications/
 
 - **Bergmann-Gering A, Ruppert W, Dietrich L (2026).** Alles im (Un-)Gleichgewicht? Wechselwirkung, Kopplung und Regulation biologischer Prozesse. *Unterricht Biologie*, 519, 2-11.
 
-- **Fröbe HT, Dietrich L (2026).** Regulation versus Rückkopplung. Über Modellierung Wirkungszusammenhänge verdeutlichen.*Unterricht Biologie*, 519, 36-41.
+- **Fröbe HT, Dietrich L (2026).** Regulation versus Rückkopplung. Über Modellierung Wirkungszusammenhänge verdeutlichen. *Unterricht Biologie*, 519, 36-41.
 
 - **Behrend A, Büchter T, Dietrich L, Eichler A, Göddenhenrich T, Heuckmann B, Koulani H, Kremer K, Mehl S, Söllner M (2026).** DUDa – Digital, adaptive support for generic and discipline-related data literacy. *Proceedings ICOTS 12*.
 
