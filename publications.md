@@ -61,7 +61,11 @@ permalink: /publications/
 
 ## Contributions and teaching materials
 
-- **Behrend A, Büchter T, Dietrich L, Eichler A, Göddenhenrich T, Heuckmann B, Koulani H, Kremer K, Mehl S, Söllner M (2026)** DUDa – Digital, adaptive support for generic and discipline-related data literacy. *Proceedings ICOTS 12*.
+- **Bergmann-Gering A, Ruppert W, Dietrich L (2026).** Alles im (Un-)Gleichgewicht? Wechselwirkung, Kopplung und Regulation biologischer Prozesse. *Unterricht Biologie*, 519, 2-11.
+
+- **Fröbe HT, Dietrich L (2026).** Regulation versus Rückkopplung. Über Modellierung Wirkungszusammenhänge verdeutlichen.*Unterricht Biologie*, 519, 36-41.
+
+- **Behrend A, Büchter T, Dietrich L, Eichler A, Göddenhenrich T, Heuckmann B, Koulani H, Kremer K, Mehl S, Söllner M (2026).** DUDa – Digital, adaptive support for generic and discipline-related data literacy. *Proceedings ICOTS 12*.
 
 - **Dietrich L, Hammann M, Kremer K, Asshoff R (2026).** Die Ökologie braucht das Basiskonzept System zurück. *MNU Journal*, 79(2), 162-168.
 
