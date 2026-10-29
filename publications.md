@@ -10,6 +10,8 @@ permalink: /publications/
 
 ## Journal articles
 
+- **Dietrich L, Fink L, Urhahne D, Kremer K (in press).** What Makes Learning with GenAI Effective? Text Support and Deeper Engagement are Associated with Higher Performance in an Ecology Context. *Journal of Science Education and Technology*
+
 - **Kehl L, Willis FM, Dietrich L (2026).** The Brocken tree limit: treeline, summit syndrome or forest advance? *Plant Ecology*, 227, 107. DOI: [10.1007/s11258-026-01677-4](https://doi.org/10.1007/s11258-026-01677-4)
 
 - **Dietrich L (2026).** Keeping Humans at the Heart of Sustainability. *Sustainability Science* DOI: [10.1007/s11625-026-01886-w](https://doi.org/10.1007/s11625-026-01886-w)
